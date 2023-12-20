@@ -1,0 +1,11 @@
+.heading {
+    color: green;
+}
+.para {
+    color: rgb(243, 79, 14) !important;
+}
+
+
+
+
+/* If we write !important then directly it will take external css color */

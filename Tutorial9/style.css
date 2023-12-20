@@ -1,0 +1,21 @@
+.box {
+    border-color: red;
+    border-width: 7px;
+    border-style: solid; /*We have more types of border styles ex:-dotted, double, ridge, solid, initial...etc  */
+    text-align: center;
+    height: 300px;  /* 300vh; here we can you pixel or viewpodheight */
+    width: 70vh;
+    padding: 100px; /* padding-left, padding-right, padding-top, padding-bottom*/
+    margin: 50px;
+}
+
+.heading {
+    display: block;     /*display: inline*/  /*`inline`: Elements are displayed inline, taking up only as much width as necessary.*/
+    border-color: rgb(12, 233, 67);
+    border-width: 10px;
+    border-style: solid;
+    /* border: 5px solid red; */  /* border-color, border-width, border-style we can write in same line*/
+    text-align: center;
+    padding-top: 20px;
+    visibility: visible;  /* visibility: hidden;  By default visibility is visible */
+}

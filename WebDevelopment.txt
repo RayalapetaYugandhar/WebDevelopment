@@ -1,0 +1,3804 @@
+# Web Development with MERN!🔥
+
+# By MassCoders - DodagattaNihar
+
+### ⚠️ Make sure you have Subscribed me on [YouTube](https://www.youtube.com/@niharrdg?sub_confirmation=1) and followed me on [Instagram](https://www.instagram.com/niihaaarrrr/) if you like my efforts :)
+Below are the reference links to our social media handles. Join us on our [Telegram](https://t.me/masscoders) or [WhatsApp](https://whatsapp.com/channel/0029Va8xYST6LwHtHIWRGl35) channel for real time updates.
+
+YouTube → [Click Here](https://www.youtube.com/@niharrdg?sub_confirmation=1)
+Instagram → [Click Here](https://www.instagram.com/niihaaarrrr/)
+LinkedIn → [Click Here](https://www.linkedin.com/in/niharrdg/)
+Telegram → [Click Here](https://t.me/masscoders)
+WhatsApp → [Click Here](https://whatsapp.com/channel/0029Va8xYST6LwHtHIWRGl35)
+Discord → [Click Here](https://discord.gg/VqxvdSgHrm)
+
+### Pro Tip: Stay CONSISTENT everyday!🔥
+
+#################################################################################################
+Tutorial_1:-
+#################################################################################################
+
+- VS Code Setup and HTML Introduction
+    
+    ### Watch Tutorial → [Click Here](https://youtu.be/xQ_LkOHyvPM)
+    
+    ### Install VS Code
+    
+    Andarki Namaste! Ippud VS Code ela install cheyyalo chuddam :)
+    
+    1. **Download VS Code:**
+    Go to the official Visual Studio Code website at https://code.visualstudio.com/ and click on the "Download for Windows," "Download for macOS," or "Download for Linux" button, depending on your operating system.
+    2. **Install VS Code on Windows:**
+        - For Windows, the downloaded file will typically be an installer (.exe) file. Run the installer by double-clicking it.
+        - Follow the on-screen instructions in the installer. You can choose the default installation settings for most users.
+    3. **Install VS Code on macOS:**
+        - For macOS, the downloaded file will be a .zip archive. Double-click the downloaded .zip file to extract it.
+        - Drag the Visual Studio Code application from the extracted folder to the Applications folder. This will install VS Code on your Mac.
+    4. **Install VS Code on Linux:**
+        - For Linux, the download package will vary depending on your distribution. Common package formats include .deb (Debian/Ubuntu) and .rpm (Red Hat/Fedora). Download the appropriate package for your distribution.
+        - Install the package using your package manager. For example, on Debian/Ubuntu-based systems, you can use the `dpkg` command:
+        Replace `<package-name>` with the actual name of the downloaded package.
+            
+            ```
+            sudo dpkg -i <package-name>.deb
+            
+            ```
+            
+        - You may also need to resolve any dependencies that are missing. Use your package manager to install these dependencies.
+    
+    Anthe VS Code ithe install ipoindi! Ippud andulo poy pani cheskundam :)
+    
+    ### HTML Introduction
+    
+    HTML stands for HyperText Markup Language. It is the standard markup language used to create and structure content on the World Wide Web (WWW). HTML is the backbone of most web pages and is used to define the structure and layout of web documents, including text, images, links, forms, and multimedia.
+    
+    ### Heading, Paragraph and Button tags
+    
+    `<h1>`, `<p>`, and `<button>` tags gurinchi ithe chuddam mowa ippudu.
+    
+    `<h1>` Tag (Heading 1):
+    
+    - The `<h1>` tag is used to define the top-level or main heading of a webpage or a section within a webpage.
+    - It represents the most important and largest heading on the page.
+    - Web browsers typically render text within `<h1>` tags in a larger and bold font to emphasize its significance.
+    - It's good practice to use `<h1>` for the main title of a page, and you can use it hierarchically with other heading tags like `<h2>`, `<h3>` ,`<h4>` `<h5>` ,`<h6>`for subheadings with decreasing importance.
+    
+    Example:
+    
+    ```html
+    <h1>Welcome to MassCoders HTML Tutorial</h1>
+    <h2>Welcome to MassCoders HTML Tutorial</h2>
+    <h3>Welcome to MassCoders HTML Tutorial</h3>
+    <h4>Welcome to MassCoders HTML Tutorial</h4>
+    <h5>Welcome to MassCoders HTML Tutorial</h5>
+    <h6>Welcome to MassCoders HTML Tutorial</h6>
+    
+    ```
+    
+    `<p>` Tag (Paragraph):
+    
+    - The `<p>` tag is used to define a paragraph of text on a webpage.
+    - It's one of the most common HTML tags for structuring and formatting text content.
+    - Text enclosed within `<p>` tags is typically displayed with a line break before and after it, creating distinct paragraphs.
+    - You can use `<p>` tags to separate and format different sections of text on a webpage.
+    
+    Example:
+    
+    ```html
+    <p>Founder - Dodagatta Nihar</p>
+    
+    ```
+    
+    `<button>` Tag:
+    
+    - The `<button>` tag is used to create a clickable button on a webpage.
+    - It can be used to trigger JavaScript functions or perform form submission actions when clicked. (Deeni gurinchi manam mana future sessions lo telskuntam)
+    - You can include text or other HTML elements inside the `<button>` tag to create custom button content.
+    - `<button>` elements are often used in forms to create submit buttons or for other interactive features.
+    
+    Example:
+    
+    ```html
+    <button>Subscribe Here!</button>
+    
+    ```
+    
+    ### Attempt Quiz → [Click Here](https://forms.gle/nWKQT5pZmcEFrkBPA)
+    
+    ### Assignment Question:
+    Create an HTML webpage using the concepts introduced in this session, specifically employing the `<h1>`, `<p>`, and `<button>` tags.
+    
+    ### Congrats Mowa Successful ga complete chesnav! Next session lo kaluddam :)
+#################################################################################################
+Tutorial_2:-
+#################################################################################################
+- CSS Color and Background Color
+    
+    ### Watch Tutorial → [Click Here](https://www.youtube.com/watch?v=s6b_qrPjGpA)
+    
+    Eeroj manam CSS vaadi rangul tho aadukundam :)
+    
+    ### **Introduction to CSS (Cascading Style Sheets)**
+    
+    - **What is CSS?**
+        - CSS stands for Cascading Style Sheets.
+        - It is a stylesheet language used for describing the presentation and formatting of a document written in HTML (Hypertext Markup Language).
+        - CSS allows you to control the layout, colors, fonts, and other visual aspects of a web page, making it visually appealing and user-friendly.
+    - **Why Use CSS?**
+        - Separation of Concerns: CSS separates the content (HTML) from its presentation, making it easier to maintain and update web pages.
+        - Consistency: CSS enables you to apply consistent styles across multiple pages of a website.
+        - Flexibility: You can change the look and feel of a website without altering its underlying structure (HTML).
+    
+    ### Including CSS using External CSS File
+    
+    ```html
+    
+    <!-- External CSS -->
+    <head>
+      <link rel="stylesheet" href="style.css">
+    </head>
+    
+    ```
+    
+    ### **CSS Color**
+    
+    - **Setting Text Color**
+        - You can change the text color using the `color` property.
+        - CSS supports a set of named colors like "red," "blue," "green," etc.
+    
+    ```css
+    /* style.css */
+    p {
+      color: blue; /* Using a named color */
+    }
+    
+    ```
+    
+    ### **Background Color**
+    
+    - **Setting Background Color**
+        - You can change the background color of an element using the `background-color` property.
+        - Like text color, you can use named colors for background color as well.
+    
+    ```css
+    /* style.css */
+    body {
+      background-color: green; /* Using a named color for the background */
+    }
+    
+    ```
+    
+    CSS allows for a wide range of styling options beyond just color and background color, including font size, margin, padding, border, and more.
+    Veeti gurinchi manam further tutorials lo telskuntam. Stay tuned :)
+    
+    ### **Height and Width**
+    
+    In CSS, you can use the `height` and `width` properties to control the dimensions of HTML elements. Here's how you can use them:
+    
+    ```css
+    /* Set the height and width of an element with a class */
+    .box {
+        height: 100px; /* Set the height to 100 pixels */
+        width: 200px; /* Set the width to 200 pixels */
+    }
+    
+    ```
+    
+    In this example, any element with the class `box` will have a height of 100 pixels and a width of 200 pixels.
+    
+    And in your HTML:
+    
+    ```html
+    <div class="box">This is a box with a specified height and width.</div>
+    
+    ```
+    
+    This `<div>` element will have the specified height and width.
+    
+    ### **Text Alignment**
+    
+    The `text-align` property in CSS is used to control the horizontal alignment of text within an element. Here's how it works:
+    
+    ```css
+    /* Center-align text within a paragraph */
+    p {
+        text-align: center;
+    }
+    
+    ```
+    
+    In this example, all text within `<p>` elements will be center-aligned.
+    
+    ```html
+    <p>This is center-aligned text.</p>
+    
+    ```
+    
+    ### Attempt Quiz → [Click Here](https://forms.gle/VxEJmLrRhYJf2DoJ7)
+    
+    ### Assignment Question:
+    Create a CSS rule that styles the header of the page with the following properties:
+    
+    - Set the text color to green.
+    - Set the background color to pink.
+    - Set the height to 400px.
+    - Set the width to 500px.
+    
+    ### Congrats Mowa Successful ga complete chesnav! Next session lo kaluddam :)
+#################################################################################################
+Tutorial_3:-
+#################################################################################################
+- RGB HEX HSL Values | CSS Color
+    
+    ### Watch Tutorial → [Click Here](https://www.youtube.com/watch?v=Q58xj-43P0c)
+    
+    ### Color Picker → [Click Here](http://google.com/search?q=color+picker)
+    
+    ### Cloudinary → [Click Here](http://cloudinary.com/)
+    
+    Hello Mithrooooms! Eeroj manam enni rakalga color ki values ivacho chudham.
+    In CSS, there are several ways to specify color values. Each method has its own syntax and use cases. Here are the most common types of color values in CSS:
+    
+    ### **Keyword Color Values:**
+    
+    CSS provides a set of predefined color keywords that represent common colors. These keywords are easy to use and remember. For example:
+    
+    ```css
+    color: red;
+    background-color: blue;
+    
+    ```
+    
+    Some common keyword color values include `red`, `blue`, `green`, `black`, `white`, `yellow`, and many others.
+    
+    ### **Hexadecimal Color Values:**
+    
+    Hexadecimal color values are represented as six-digit codes preceded by a hash symbol (#). Each pair of digits represents the intensity of red, green, and blue (RGB) in the color. For example:
+    
+    ```css
+    color: #FF0000; /* Red */
+    background-color: #00FF00; /* Green */
+    
+    ```
+    
+    In this example, `#FF0000` represents the color red, where `FF` is the maximum intensity of red, and `00` indicates no intensity of green and blue.
+    
+    ### **RGB Color Values:**
+    
+    RGB color values specify the intensity of red, green, and blue in a color using the `rgb()` function. You can specify each color component's intensity as a percentage or an integer value between 0 and 255. For example:
+    
+    ```css
+    color: rgb(255, 0, 0); /* Red */
+    background-color: rgb(0, 255, 0); /* Green */
+    
+    ```
+    
+    ### **RGBA Color Values:**
+    
+    RGBA color values are similar to RGB, but they include an additional alpha channel, which represents the opacity of the color. The alpha value is specified as a number between 0 (fully transparent) and 1 (fully opaque). For example:
+    
+    ```css
+    color: rgba(255, 0, 0, 0.5); /* Semi-transparent red */
+    background-color: rgba(0, 255, 0, 0.75); /* Semi-transparent green */
+    
+    ```
+    
+    ### **HSL Color Values:**
+    
+    HSL (Hue, Saturation, Lightness) color values represent colors by specifying the hue (color), saturation (vividness), and lightness (brightness) using the `hsl()` function. For example:
+    
+    ```css
+    color: hsl(0, 100%, 50%); /* Red */
+    background-color: hsl(120, 100%, 50%); /* Green */
+    
+    ```
+    
+    ### **HSLA Color Values:**
+    
+    HSLA color values are similar to HSL, but they include an alpha channel for opacity, just like RGBA. For example:
+    
+    ```css
+    color: hsla(0, 100%, 50%, 0.5); /* Semi-transparent red */
+    background-color: hsla(120, 100%, 50%, 0.75); /* Semi-transparent green */
+    
+    ```
+    
+    These are the primary ways to specify color values in CSS. The choice of which method to use depends on your specific design requirements and preferences.
+    
+    ### Attempt Quiz → [Click Here](https://forms.gle/Q1CSZP4Xx5jmZ3q79)
+    
+    ### Assignment Question:
+    Build a web page utilizing hexadecimal, RGB, RGBA, HSL, and HSLA color values.
+    
+    ### Congrats Mowa Successful ga complete chesnav! Next session lo kaluddam :)
+#################################################################################################
+Tutorial_4:-
+#################################################################################################
+- HTML Tags
+    
+    ### Watch Tutorial → [Click Here](https://www.youtube.com/watch?v=XCBK_bVqMjk)
+    
+    Hi Prends! Eeroj manam HTML Tags ante entido chuddam.
+    
+    ### HTML Tags
+    
+    An HTML tag is a fundamental component of HTML (Hypertext Markup Language), which is the standard language used to create and structure content on the World Wide Web. HTML tags are used to define and format elements within a web page. They consist of an opening tag, content, and a closing tag (in most cases).
+    
+    Here's a breakdown of the parts of an HTML tag:
+    
+    1. **Opening Tag:** The opening tag is enclosed in angle brackets (<>) and indicates the beginning of an HTML element. It typically contains the name of the element. For example, `<p>` is the opening tag for a paragraph element.
+    2. **Content:** The content is the actual information or text you want to display within the HTML element. It appears between the opening and closing tags.
+    3. **Closing Tag:** The closing tag also uses angle brackets but includes a forward slash (/) before the element name. It indicates the end of the HTML element. For example, `</p>` is the closing tag for a paragraph element.
+    
+    Here's a simple example of an HTML tag for a paragraph element:
+    
+    ```html
+    <p>Subscribe to Dodagatta Nihar</p>
+    
+    ```
+    
+    In this example:
+    
+    - `<p>` is the opening tag.
+    - "Subscribe to Dodagatta Nihar" is the content.
+    - `</p>` is the closing tag.
+    
+    HTML tags are the building blocks of web pages, and by using different tags and attributes, you can structure text, insert images, create links, define headings, and much more, allowing you to create rich and interactive web content.
+    
+    ### HTML Tags with Closing Tags (Examples)
+    
+    1. **Headings (h1 - h6):**
+        - Headings are used to define the headings or titles of sections on a webpage.
+        - They range from `<h1>` (the highest level) to `<h6>` (the lowest level).
+        
+        ```html
+        <h1>Welcome to MassCoders</h1>
+        <h2>Subscribe to Dodagatta Nihar</h2>
+        <h3>Follow me on Instagram at @niihaaarrrr</h3>
+        
+        ```
+        
+    2. **Paragraphs (p):**
+        - `<p>` tags are used to define paragraphs of text.
+        
+        ```html
+        <p>Welcome to MassCoders. Subscribe to Dodagatta Nihar and stay updated.</p>
+        <p>Don't forget to follow me on Instagram at <a href="<https://www.instagram.com/niihaaarrrr>">@niihaaarrrr</a>.</p>
+        
+        ```
+        
+    3. **Links (a):**
+        - `<a>` tags are used to create hyperlinks to other web pages or resources.
+        
+        ```html
+        <a href="<https://www.youtube.com/@niharrdg>">Subscribe to Dodagatta Nihar</a>
+        <a href="<https://www.instagram.com/niihaaarrrr>">Follow me on Instagram at @niihaaarrrr</a>
+        
+        ```
+        
+    4. **Images (img):**
+        - `<img>` is used to display images on a webpage.
+        
+        ```html
+        <img src="https://res.cloudinary.com/nihars3/image/upload/v1684595335/DP-modified_vhu4ws.png" alt="Dodagatta Nihar">
+        
+        ```
+        
+    5. **Divisions (div):**
+        - `<div>` is a generic container used to group elements together for styling or scripting purposes.
+        
+        ```html
+        <div>
+            <p>Welcome to MassCoders</p>
+            <p>Subscribe to Dodagatta Nihar</p>
+            <p>Follow me on Instagram at @niihaaarrrr</p>
+        </div>
+        
+        ```
+        
+    6. **Bold and Italic (b and i):**
+        - `<b>` is used for bold text, and `<i>` is used for italic text.
+        
+        ```html
+        <p>This is <b>bold</b> text and <i>italic</i> text.</p>
+        
+        ```
+        
+    
+    ### HTML Tags without Closing Tags (Examples)
+    
+    1. **Line Break (br):**
+        - `<br>` is used to create a line break within text.
+        
+        ```html
+        <p>This text<br>has a line break.</p>
+        
+        ```
+        
+    2. **Horizontal Rule (hr):**
+        - `<hr>` is used to create a horizontal line or divider.
+        
+        ```html
+        <p>Some content above<hr>and below the line.</p>
+        
+        ```
+        
+    
+    ### Inka chaala HTML Tags untay mowa! Avasaranni batti mana Google thalli ni adigi vaadukodame.
+    
+    ### Attempt Quiz → [Click Here](https://forms.gle/yZgaWTML3gtvrNDF7)
+    
+    ### Assignment Question:
+    Create a webpage that incorporates the HTML topics you've learned so far. Highlight specific HTML tags and create elements that link to my YouTube channel (https://youtube.com/@niharrdg) and my Instagram page (https://instagram.com/niihaaarrrr). Use creative design and make the best use of CSS to enhance the visual appeal of your webpage.
+    
+    ### Congrats Mowa Successful ga complete chesnav! Next session lo kaluddam :)
+#################################################################################################
+Tutorial_5:-
+#################################################################################################
+- HTML Lists and Tables
+    
+    ### Watch Tutorial → [Click Here](https://youtu.be/EFMYo8qtwi8)
+    
+    Hellooooo mowa brooos! Eeroj manam HTML Lists and Tables pakkaki oka look eseddam :)
+    
+    ### HTML Lists
+    
+    HTML lists are used to present information in a structured and organized manner. There are three types of lists in HTML: ordered lists, unordered lists, and definition lists. Each type of list has its own purpose and can be customized using CSS properties.
+    
+    1. **Ordered Lists (`<ol>`):**
+    Ordered lists are used when the order of the items is significant. Each list item is preceded by a number or another marker, typically starting from 1 and incrementing sequentially.
+        
+        ```html
+        <ol>
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+        </ol>
+        
+        ```
+        
+        Common list style properties for ordered lists:
+        
+        - `type`: Specifies the numbering style. Default is "decimal," but you can use "lower-alpha," "upper-alpha," "lower-roman," "upper-roman," etc.
+            
+            ```html
+            <ol type="I">
+              <li>Item 1</li>
+              <li>Item 2</li>
+              <li>Item 3</li>
+            </ol>
+            
+            ```
+            
+        - `start`: Allows you to start the numbering from a specific value.
+            
+            ```html
+            <ol start="5">
+              <li>Item 5</li>
+              <li>Item 6</li>
+              <li>Item 7</li>
+            </ol>
+            
+            ```
+            
+    2. **Unordered Lists (`<ul>`):**
+    Unordered lists are used when the order of items doesn't matter. Each list item is typically preceded by a bullet point or another marker.
+        
+        ```html
+        <ul>
+          <li>Item A</li>
+          <li>Item B</li>
+          <li>Item C</li>
+        </ul>
+        
+        ```
+        
+        Common list style properties for unordered lists:
+        
+        - `type`: Specifies the marker style. Default is "disc," but you can use "circle," "square," or define custom markers using CSS.
+            
+            ```html
+            <ul style="list-style-type: square;">
+              <li>Item X</li>
+              <li>Item Y</li>
+              <li>Item Z</li>
+            </ul>
+            
+            ```
+            
+    3. **Definition Lists (`<dl>`) (Idi ekkuva vaadam ankondi practical ga, ina parle okasari look ithe eseyyandi):**
+    Definition lists are used to define terms and their corresponding definitions. They consist of term (`<dt>`) and definition (`<dd>`) pairs.
+        
+        ```html
+        <dl>
+          <dt>Term 1</dt>
+          <dd>Definition 1</dd>
+          <dt>Term 2</dt>
+          <dd>Definition 2</dd>
+        </dl>
+        
+        ```
+        
+        Common list style properties for definition lists:
+        
+        - `compact`: Specifies whether the list should be displayed with reduced spacing. This is a Boolean attribute.
+            
+            ```html
+            <dl compact>
+              <dt>Term A</dt>
+              <dd>Definition A</dd>
+              <dt>Term B</dt>
+              <dd>Definition B</dd>
+            </dl>
+            
+            ```
+            
+    
+    **CSS Properties for List Styling:**
+    You can further style your lists using CSS. Here are some common CSS properties for customizing lists:
+    
+    1. `list-style-type`: Specifies the type of marker or numbering. Values include "disc," "circle," "square," "decimal," "lower-roman," "upper-roman," "lower-alpha," "upper-alpha," and more.
+    2. `list-style-image`: Allows you to use a custom image as a marker for list items. For example:
+        
+        ```css
+        ul {
+          list-style-image: url('bullet.png');
+        }
+        
+        ```
+        
+    3. `list-style-position`: Controls the position of the marker or numbering relative to the list item. Values can be "inside" or "outside."
+        
+        ```css
+        ul {
+          list-style-position: outside;
+        }
+        
+        ```
+        
+    
+    These CSS properties provide flexibility in customizing the appearance of lists to match your website's design.
+    
+    ### HTML Tables
+    
+    HTML tables are used to display data in a structured grid format, with rows and columns. Tables consist of various components, including the table itself, rows, headers, and data cells. Here's an explanation of HTML tables with code snippets:
+    
+    Creating a Basic Table:
+    To create a basic HTML table, you'll use the `<table>` element to define the table structure. Within the table, you use `<tr>` elements to define rows, `<th>` elements for table headers (optional), and `<td>` elements for data cells.
+    
+    ```html
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>Dodagatta Nihar</td>
+        <td>19</td>
+      </tr>
+    </table>
+    
+    ```
+    
+    Table Headers (`<th>`):
+    You can use `<th>` elements to define table headers. These headers are typically bold and centered by default. They help describe the content of the columns.
+    
+    ```html
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>Peru teliyani Ammai</td>
+        <td>19</td>
+      </tr>
+      <!-- More rows... -->
+    </table>
+    
+    ```
+    
+    Ee kinda unna examples ni meeru kuda VS Code lo try out chesi chudandi :)
+    
+    Table Captions (`<caption>`):
+    You can add a caption to your table using the `<caption>` element. The caption is typically placed above the table.
+    
+    ```html
+    <table>
+      <caption>Student Information</caption>
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>Emily</td>
+        <td>22</td>
+      </tr>
+      <!-- More rows... -->
+    </table>
+    
+    ```
+    
+    Table Borders and Styling:
+    You can use CSS to style tables, including adding borders, changing fonts, and applying background colors. Here's an example of adding a border to a table:
+    
+    ```html
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      th, td {
+        border: 1px solid #ccc;
+        padding: 8px;
+        text-align: left;
+      }
+    </style>
+    
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>Michael</td>
+        <td>30</td>
+      </tr>
+      <!-- More rows... -->
+    </table>
+    
+    ```
+    
+    Spanning Rows and Columns:
+    You can use the `rowspan` and `colspan` attributes to make cells span multiple rows or columns.
+    
+    ```html
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Details</th>
+      </tr>
+      <tr>
+        <td rowspan="2">John</td>
+        <td>Age: 25</td>
+      </tr>
+      <tr>
+        <td>Country: USA</td>
+      </tr>
+      <!-- More rows... -->
+    </table>
+    
+    ```
+    
+    HTML tables are versatile and allow you to present data in various formats, from simple grids to complex data tables. You can further enhance their appearance and functionality using CSS and JavaScript if needed.
+    
+    ### Attempt Quiz → [Click Here](https://forms.gle/LpZnkALNGD1GsM288)
+    
+    ### Assignment Question:
+    Design elegant HTML lists and tables, enhancing their visual appeal with CSS styling.
+    
+    ### Congrats Mowa Successful ga complete chesnav! Next session lo kaluddam :)
+#################################################################################################
+Tutorial_6:-
+#################################################################################################
+- HTML Forms
+    
+    ### Watch Tutorial → [Click Here](https://www.youtube.com/watch?v=VBkeNvUvCVs)
+    
+    Andarki namaste! User nundi input collect cheskodaniki manam HTML Forms vaadtam. Daaniki sambandinchi coding ithe manam eeroj session lo cheseddam.
+    
+    ### HTML Forms
+    
+    HTML forms are a fundamental part of web development, allowing users to input data and interact with a web page. Forms are used for various purposes, such as user registration, login, search, and data submission. Below, I'll explain the key components of an HTML form with a simple example.
+    
+    ```html
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Sample Form</title>
+    </head>
+    <body>
+        <h1>Welcome to MassCoders! Please enter your details.</h1>
+        <form action="process_form.php" method="POST">
+            <!-- Text Input -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+    
+            <!-- Email Input -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <!-- Radio Buttons -->
+            <p>Gender:</p>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+    
+            <!-- Checkboxes -->
+            <p>Interests:</p>
+            <input type="checkbox" id="coding" name="interests[]" value="coding">
+            <label for="coding">Coding</label>
+            <input type="checkbox" id="music" name="interests[]" value="music">
+            <label for="music">Music</label>
+    
+            <!-- Select Dropdown -->
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option value="us">India</option>
+                <option value="ca">Canada</option>
+                <option value="uk">United Kingdom</option>
+            </select>
+    
+            <!-- Textarea -->
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea>
+    
+            <!-- Submit Button -->
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+    </html>
+    
+    ```
+    
+    Explanation:
+    
+    1. `<!DOCTYPE html>`: This declaration specifies that the document is an HTML5 document.
+    2. `<html>`: The root element of the HTML document.
+    3. `<head>`: Contains metadata about the document, such as the title that appears in the browser tab.
+    4. `<title>`: Sets the title of the web page.
+    5. `<body>`: The main content of the web page goes within the body element.
+    6. `<form>`: The form element is used to create an HTML form. It has two essential attributes:
+        - `action`: Specifies the URL to which the form data will be sent when the user submits the form.
+        - `method`: Defines the HTTP method used to send the data, typically `POST` or `GET`.
+    7. `<label>`: Labels are used to provide a text description for form elements. They are associated with form controls using the `for` attribute.
+    8. `<input>`: This element is used for various types of input fields like text, email, radio buttons, and checkboxes. The `type` attribute specifies the input field type, and the `name` attribute is used to identify the field when the form is submitted.
+    9. Radio buttons (`type="radio"`) and checkboxes (`type="checkbox"`) are used for selecting one or multiple options, respectively.
+    10. `<select>`: The select element creates a dropdown list with options specified using the `<option>` elements.
+    11. `<textarea>`: Textareas allow users to enter multiline text. You can set the number of rows and columns with the `rows` and `cols` attributes.
+    12. `<input type="submit">`: This input element is a submit button. When clicked, it triggers the form submission to the URL specified in the `action` attribute.
+    
+    This is a basic example of an HTML form. When a user fills out the form and clicks the "Submit" button, the data is sent to the server for processing. The server-side script specified in the `action` attribute (e.g., "process_form.php") would handle the form data. 
+    Note: Ee php gurinchi ippude em thala chedupkokandi, ivanni yenakamala jarige panulu, malli chuddam veeti gurinchi.
+    
+    ### Attempt Quiz → [Click Here](https://forms.gle/bvb8t85NVDqGzU6Q6)
+    
+    ### Assignment Question:
+    Your assignment is to construct an HTML registration form for students wishing to enroll in the MassCoders community. Make certain that the form encompasses all the subject matter addressed in this session and apply CSS to elevate its visual appeal.
+    
+    ### Congrats Mowa Successful ga complete chesnav! Next session lo kaluddam :)
+################################################################################################
+Tutorial_7:-
+#################################################################################################
+- Internal, External and Inline CSS
+    
+    ### Watch Tutorial → [Click Here](https://youtu.be/8_qoLWDTN90)
+    
+    CSS (Cascading Style Sheets) is a styling language used to control the visual presentation of web content. There are three main ways to include CSS in your web pages: internal, external, and inline CSS. Here are notes and examples for each:
+    
+    ### **Internal CSS**:
+    
+    Internal CSS is defined within the `<style>` element in the HTML document's `<head>` section. It applies styles to a single HTML page.
+    
+    ```html
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <style>
+            /* Internal CSS */
+            h1 {
+                color: blue;
+            }
+            p {
+                font-size: 16px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Welcome to MassCoders</h1>
+        <p>Subscribe to my YouTube channel</p>
+    </body>
+    </html>
+    ```
+    
+    ### **External CSS**:
+    
+    External CSS is defined in a separate `.css` file and then linked to the HTML document using the `<link>` element. This allows you to apply the same styles across multiple pages.
+    
+    ```css
+    /* External CSS (style.css) */
+    h1 {
+        color: blue;
+    }
+    p {
+        font-size: 16px;
+    }
+    
+    ```
+    
+    ```html
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Welcome to MassCoders</h1>
+        <p>Subscribe to my YouTube channel</p>
+    </body>
+    </html>
+    
+    ```
+    
+    ### **Inline CSS**:
+    
+    Inline CSS is defined directly within the HTML elements using the `style` attribute. It's typically used for individual elements.
+    
+    ```html
+    <!DOCTYPE html>
+    <html>
+    <body>
+        <h1 style="color: blue;">Welcome to MassCoders</h1>
+        <p style="font-size: 16px;">Subscribe to my YouTube channel</p>
+    </body>
+    </html>
+    
+    ```
+    
+    In summary, the choice between internal, external, and inline CSS depends on the scale and complexity of your project. Internal CSS is good for small-scale projects, external CSS is ideal for larger projects with consistent styles, and inline CSS is useful for quick and specific styling needs.
+    
+    ### Attempt Quiz → [Click Here](https://forms.gle/iZn2cUFzT195etaEA)
+    
+    ### Assignment Question:
+    Create a basic web page that includes elements such as h1, p, div, and button tags, and incorporate inline, internal, and external CSS to style the page.
+    
+    ### Congrats Mowa Successful ga complete chesnav! Next session lo kaluddam :)
+#################################################################################################
+Tutorial_8:-
+#################################################################################################
+- CSS Fonts
+
+    ### Watch Tutorial → [Click Here](https://www.youtube.com/watch?v=yyBtJ5GEC7c&list=PL2Kd-KQLppEFbfdJHywOu6b_GAjn3LxE1&index=9)
+    
+    ## CSS Fonts:
+    
+    CSS (Cascading Style Sheets) allows you to control the fonts used on your webpages. You can define fonts for various HTML elements using CSS properties.
+    
+    ### Font Properties:
+    
+    1. **font-family**: Specifies the font for an element. You can specify multiple fonts as a fallback, separated by commas. The browser will use the first available font.
+        
+        ```css
+        font-family: Arial, Helvetica, sans-serif;
+        
+        ```
+        
+    2. **font-size**: Sets the size of the font. You can use different units such as pixels (`px`), ems (`em`), or percentages (`%`).
+        
+        ```css
+        font-size: 16px;
+        
+        ```
+        
+    3. **font-weight**: Determines the thickness or boldness of the font. Common values include `normal`, `bold`, `bolder`, and numeric values from 100 to 900.
+        
+        ```css
+        font-weight: bold;
+        
+        ```
+        
+    4. **font-style**: Defines the style of the font, which can be `normal`, `italic`, or `oblique`.
+        
+        ```css
+        font-style: italic;
+        
+        ```
+        
+    5. **text-transform**: Changes the capitalization of the text. Options include `uppercase`, `lowercase`, and `capitalize`.
+        
+        ```css
+        text-transform: uppercase;
+        
+        ```
+        
+    6. **text-decoration**: Adds decorations to text, like underlines or strikethrough. Options include `underline`, `overline`, `line-through`.
+        
+        ```css
+        text-decoration: underline;
+        
+        ```
+        
+    7. **line-height**: Sets the vertical space between lines of text. It can be defined as a number or a unit like `em` or `px`.
+        
+        ```css
+        line-height: 1.5;
+        
+        ```
+        
+    8. **letter-spacing**: Adjusts the space between characters in the text.
+        
+        ```css
+        letter-spacing: 2px;
+        
+        ```
+        
+    9. **color**: Specifies the text color using various formats like color names, hexadecimal, or RGB values.
+        
+        ```css
+        color: #333;
+        
+        ```
+        
+    
+    ## Using Google Fonts:
+    
+    Google Fonts is a service that provides a wide selection of web fonts for free. You can easily incorporate these fonts into your web projects.
+    
+    1. **Visit Google Fonts**: Go to the [Google Fonts website](https://fonts.google.com/).
+    2. **Browse and Select Fonts**: Browse through the font library, search for specific fonts, and select the ones you want to use.
+    3. **Add Fonts to Collection**: Click the "+" button next to the fonts you want to use to add them to your collection.
+    4. **Customize**: You can customize font weights and styles for each font in your collection.
+    5. **Get the Code**: Click the "Embed" tab, and you'll find the HTML and CSS code to include in your project.
+        
+        For example:
+        
+        ```html
+        <link rel="stylesheet" href="<https://fonts.googleapis.com/css?family=Font+Name>">
+        
+        ```
+        
+        And in your CSS:
+        
+        ```css
+        body {
+            font-family: 'Font Name', sans-serif;
+        }
+        
+        ```
+        
+    6. **Apply Fonts**: Use the defined font in your CSS as needed for different elements.
+    
+    Google Fonts is a convenient way to enhance the typography of your web projects with a wide range of fonts, and it ensures that the fonts are available across various browsers.
+    
+    ### Attempt Quiz → [Click Here](https://forms.gle/myFjZn3oHUBPQRX97)
+    
+    ### Assignment Question:
+    Create a webpage that utilizes the font properties explained in this session to style text elements. Apply different font families, sizes, weights, styles, and text transformations to enhance the typography on your webpage. Additionally, experiment with text decorations, line spacing, letter spacing, and text colors to create an aesthetically pleasing and well-designed webpage.
+    
+    ### Congrats Mowa Successful ga complete chesnav! Next session lo kaluddam :)
+########################################################################################################################################################################################################### 
+Tutorial_9:-
+#######################################################################################################################################################################
+- CSS Box Model
+    
+    ### Watch Tutorial → [Click Here](https://youtu.be/MNpQQ9u0YpY)
+    
+    ### CSS Box Model
+    
+    The CSS Box Model is a fundamental concept in web design and layout. It defines how elements are rendered on a web page by breaking down each element into four parts: content, padding, border, and margin. These components affect the layout and spacing of elements on a webpage. Let's explore each component with detailed explanations and examples.
+    
+    ### Content:
+    
+    - The content area represents the actual content of the HTML element (e.g., text, images, or other media).
+    - The width and height of an element are determined by its content area.
+    
+    ```css
+    .box {
+      width: 200px;
+      height: 100px;
+      background-color: lightblue;
+    }
+    
+    ```
+    
+    ```html
+    <div class="box">This is the content</div>
+    
+    ```
+    
+    ### Padding:
+    
+    - Padding is the space between the content and the element's border.
+    - You can set padding for individual sides (top, right, bottom, left) or all sides at once.
+    
+    ```css
+    .box {
+      padding: 20px;
+      background-color: lightblue;
+    }
+    
+    ```
+    
+    ```html
+    <div class="box">This is the content</div>
+    
+    ```
+    
+    ### Border:
+    
+    - The border surrounds the padding and content of an element.
+    - You can specify the border width, style, and color.
+    - The `border` property can be shorthand or you can set border properties individually.
+    
+    ```css
+    .box {
+      padding: 20px;
+      border: 2px solid black;
+      background-color: lightblue;
+    }
+    
+    ```
+    
+    ```html
+    <div class="box">This is the content</div>
+    
+    ```
+    
+    ### Margin:
+    
+    - The margin is the space outside the border and separates the element from other elements on the page.
+    - You can set margins for individual sides or all sides at once.
+    - Margins can be used to control spacing between elements.
+    
+    ```css
+    .box {
+      padding: 20px;
+      border: 2px solid black;
+      margin: 10px;
+      background-color: lightblue;
+    }
+    
+    ```
+    
+    ```html
+    <div class="box">This is the content</div>
+    
+    ```
+    
+    Here are some additional examples to demonstrate the box model:
+    
+    - Adjusting padding on specific sides:
+    
+    ```css
+    .box {
+      padding-top: 10px;
+      padding-right: 20px;
+      padding-bottom: 30px;
+      padding-left: 40px;
+      background-color: lightblue;
+    }
+    
+    ```
+    
+    - Using margin to create spacing between elements:
+    
+    ```css
+    .box1 {
+      margin: 10px;
+      background-color: lightblue;
+    }
+    
+    .box2 {
+      margin: 10px;
+      background-color: lightcoral;
+    }
+    
+    ```
+    
+    ```html
+    <div class="box1">Box 1</div>
+    <div class="box2">Box 2</div>
+    
+    ```
+    
+    ### Border Properties
+    
+    In CSS, there are several properties that allow you to control the appearance and behavior of borders around HTML elements. These properties provide you with the flexibility to style borders in various ways. Here are some of the most commonly used border properties in CSS:
+    
+    1. `border-width`:
+        - Specifies the width of the border.
+        - You can set the width individually for each side (top, right, bottom, left) or use the shorthand property to set all sides at once.
+        
+        ```css
+        .box {
+          border-width: 2px; /* All sides */
+          border-top-width: 1px; /* Top side */
+        }
+        
+        ```
+        
+    2. `border-style`:
+        - Defines the style of the border, such as solid, dashed, dotted, double, etc.
+        
+        ```css
+        .box {
+          border-style: solid;
+        }
+        
+        ```
+        
+    3. `border-color`:
+        - Sets the color of the border.
+        
+        ```css
+        .box {
+          border-color: red;
+        }
+        
+        ```
+        
+    4. `border` (shorthand):
+        - Combines the `border-width`, `border-style`, and `border-color` properties into a single property for convenience.
+        
+        ```css
+        .box {
+          border: 2px solid red;
+        }
+        
+        ```
+        
+    5. `border-radius`:
+        - Defines rounded corners for an element's border.
+        - You can set the radius for each corner individually or as a single value for all corners.
+        
+        ```css
+        .box {
+          border-radius: 10px; /* All corners */
+          border-top-left-radius: 5px; /* Top-left corner */
+        }
+        
+        ```
+        
+    6. `border-image`:
+        - Allows you to use an image as a border, creating more complex border styles.
+        - You can specify the image source, slice, width, outset, and repeat values.
+        
+        ```css
+        .box {
+          border-image: url(border.png) 10 10 round;
+        }
+        
+        ```
+        
+    
+    CSS provides several properties to control the display and visibility of elements on a web page. These properties allow you to show or hide elements and determine how they are rendered within the document flow. Let's explore the `display` and `visibility` properties with code examples.
+    
+    ### Display Property:
+    
+    The `display` property controls how an element is displayed in terms of its layout and rendering. Common values include:
+    
+    `block`: Elements are displayed as block-level elements, taking up the entire width of their parent container.
+    
+    ```css
+    .block {
+      display: block;
+      width: 200px;
+      height: 50px;
+      background-color: lightblue;
+    }
+    
+    ```
+    
+    ```html
+    <div class="block">Block Element</div>
+    
+    ```
+    
+    `inline`: Elements are displayed inline, taking up only as much width as necessary.
+    
+    ```css
+    .inline {
+      display: inline;
+      background-color: lightcoral;
+    }
+    
+    ```
+    
+    ```html
+    <span class="inline">Inline Element</span>
+    
+    ```
+    
+    `inline-block`: Combines properties of both block and inline elements, allowing you to set width, height, and maintain inline behavior.
+    
+    ```css
+    .inline-block {
+      display: inline-block;
+      width: 100px;
+      height: 100px;
+      background-color: lightgreen;
+    }
+    
+    ```
+    
+    ```html
+    <div class="inline-block">Inline Block Element</div>
+    
+    ```
+    
+    `none`: The element is not displayed, and it doesn't occupy any space within the layout.
+    
+    ```css
+    .none {
+      display: none;
+    }
+    
+    ```
+    
+    ```html
+    <div class="none">This element is hidden.</div>
+    ```
+    
+    ### Display: Flex
+    
+    The `display: flex` property is used to create flexible, one-dimensional layouts. It allows you to distribute space within a container, align elements, and create responsive designs. Here's an example:
+    
+    ```html
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <style>
+        .flex-container {
+          display: flex;
+          justify-content: space-between;
+        }
+    
+        .flex-item {
+          width: 100px;
+          height: 100px;
+          background-color: lightblue;
+        }
+      </style>
+    </head>
+    <body>
+      <div class="flex-container">
+        <div class="flex-item">1</div>
+        <div class="flex-item">2</div>
+        <div class="flex-item">3</div>
+      </div>
+    </body>
+    </html>
+    
+    ```
+    
+    In this example, the `display: flex` property is applied to the `.flex-container`, and `justify-content: space-between` is used to evenly distribute space between the child elements.
+    
+    ### Display: Grid
+    
+    The `display: grid` property allows you to create two-dimensional grid layouts. You can define rows and columns and place elements within the grid cells. Here's an example:
+    
+    ```html
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <style>
+        .grid-container {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          grid-gap: 10px;
+        }
+    
+        .grid-item {
+          width: 100px;
+          height: 100px;
+          background-color: lightgreen;
+        }
+      </style>
+    </head>
+    <body>
+      <div class="grid-container">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+      </div>
+    </body>
+    </html>
+    
+    ```
+    
+    In this example, the `display: grid` property is applied to the `.grid-container`, and `grid-template-columns` is used to define a 3-column grid. `grid-gap` specifies the gap between grid items.
+    
+    Both `display: flex` and `display: grid` provide powerful layout capabilities, and choosing one depends on your specific design requirements. Flexbox is great for one-dimensional layouts, while grid is ideal for creating two-dimensional grid structures. You can also combine these layout models for even more advanced layouts.
+    
+    ### Visibility Property:
+    
+    The `visibility` property controls the visibility of an element while still preserving its space in the layout. Common values include:
+    
+    `visible`: The element is visible.
+    
+    ```css
+    .visible {
+      visibility: visible;
+      background-color: lightblue;
+    }
+    
+    ```
+    
+    ```html
+    <div class="visible">Visible Element</div>
+    
+    ```
+    
+    `hidden`: The element is not visible but still occupies space.
+    
+    ```css
+    .hidden {
+      visibility: hidden;
+      background-color: lightcoral;
+    }
+    
+    ```
+    
+    ```html
+    <div class="hidden">Hidden Element</div>
+    
+    ```
+    
+    ### Attempt Quiz → [Click Here](https://forms.gle/NA8r5vKHQgE7tsVZ9)
+    
+    ### Assignment Question: 
+    Design a compact webpage showcasing your preferred theme using HTML and CSS, highlighting the practical application of the CSS Box Model, as well as the utilization of the Display and Visibility properties.
+    
+    ### Congrats Mowa Successful ga complete chesnav! Next session lo kaluddam :)
+########################################################################################################
+Tutorial_10:-
+##########################################################################################################
+
+### CSS Positioning
+
+CSS (Cascading Style Sheets) positioning allows you to control the placement of HTML elements on a web page. There are several types of positioning in CSS, including:
+
+Static Positioning: This is the default positioning for all HTML elements. Elements with static positioning are placed in the normal flow of the document. You don't need to use any special CSS properties to create static positioning. Here's an example:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .static-box {
+      /* Default static positioning */
+    }
+  </style>
+</head>
+<body>
+  <div class="static-box">Static Positioning</div>
+</body>
+</html>
+
+```
+
+Relative Positioning: Elements with relative positioning are positioned relative to their normal position in the document flow. You can use the `position: relative` property to create relative positioning and adjust the element's position using `top`, `right`, `bottom`, and `left` properties. Here's an example:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .relative-box {
+      position: relative;
+      top: 20px;
+      left: 30px;
+    }
+  </style>
+</head>
+<body>
+  <div class="relative-box">Relative Positioning</div>
+</body>
+</html>
+
+```
+
+Absolute Positioning: Elements with absolute positioning are removed from the normal document flow and are positioned relative to their closest positioned ancestor. You can use the `position: absolute` property and adjust the position using `top`, `right`, `bottom`, and `left`. Here's an example:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .container {
+      position: relative;
+    }
+    .absolute-box {
+      position: absolute;
+      top: 50px;
+      left: 50px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="absolute-box">Absolute Positioning</div>
+  </div>
+</body>
+</html>
+
+```
+
+Fixed Positioning: Elements with fixed positioning are removed from the normal document flow and are positioned relative to the viewport. You can use the `position: fixed` property to create fixed positioning. Here's an example:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .fixed-box {
+      position: fixed;
+      top: 10px;
+      right: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="fixed-box">Fixed Positioning</div>
+</body>
+</html>
+
+```
+
+Sticky Positioning: Elements with sticky positioning are initially positioned according to the normal flow, but become fixed or relative to their containing block based on the user's scroll position. You can use the `position: sticky` property. Here's an example:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .sticky-box {
+      position: sticky;
+      top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="sticky-box">Sticky Positioning</div>
+  <!-- Content that causes scrolling -->
+</body>
+</html>
+
+```
+
+### Attempt Quiz → [Click Here](https://forms.gle/zXTBmhahDmEqoFwD9)
+
+### Assignment Question:
+Create a simple webpage with the following elements positioned using CSS: A navigation bar at the top, a main content area, and a footer at the bottom. The header and footer should be fixed in position, while the navigation bar and main content should be relatively positioned.
+
+### Congrats Mowa Successful ga complete chesnav! Next session lo kaluddam :)
+########################################################################################################
+Tutorial_11:-
+##########################################################################################################
+- Build your Portfolio website
+    
+    ### Watch Tutorial → [Click Here](https://youtu.be/WE5gcS2Egc8?si=mjevuSqjgC-mhyMe)
+    
+    Check out the code below.
+    
+    index.html:
+    
+    ```html
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="navbar">
+            <div class="navbar-left">
+                <img class="logo-image" src="https://res.cloudinary.com/nihars3/image/upload/v1695711604/oie_4tJfBuZmsuYT_eafcem.png" alt="logo">
+            </div>
+            <div class="navbar-right">
+                <a class="a-element">Home</a>
+                <a class="a-element">About</a>
+                <a class="a-element" href="#services">Services</a>
+                <a class="a-element">Contact</a>
+            </div>
+        </div>
+        <div class="home">
+            <div class="home-left">
+                <h1 class="home-h1">Dodagatta Nihar</h1>
+                <p class="home-p">Hello, I'm Nihar, a passionate Bachelor's degree candidate in Artificial Intelligence at the University of Visvesvaraya College of Engineering in Bengaluru. With a strong background in web development and a robust portfolio of over 50 websites, I have honed my skills in creating dynamic and visually appealing online experiences. Proficient in Python, I am adept at leveraging its power for efficient and scalable solutions.</p>
+            </div>
+            <div class="home-right">
+                <img src="https://res.cloudinary.com/nihars3/image/upload/v1684595335/DP-modified_vhu4ws.png" alt="my logo">
+            </div>
+        </div>
+        <div class="services" id="services">
+            <h1 class="ser-h1">SERVICES WE OFFER</h1>
+            <div class="services-sub-cont">
+                <div class="services-card">
+                    <h1 class="sc-h1">Web Designing</h1>
+                    <p class="sc-p">Nenu manchi manchi websitelani design chestha interest unte nanni sampradinchandi.</p>
+                </div>
+                <div class="services-card">
+                    <h1 class="sc-h1">Video Editing</h1>
+                    <p class="sc-p">Nenu manchi manchi Videos ni edit chestha interest unte nanni sampradinchandi.</p>
+                </div>
+                <div class="services-card">
+                    <h1 class="sc-h1">Photoshop</h1>
+                    <p class="sc-p">Nenu manchi manchi photolani edit chestha interest unte nanni sampradinchandi.</p>
+                </div>
+            </div>
+        </div>
+        <div class="services">
+            <h1 class="ser-h1">TESTIMONIALS</h1>
+            <div class="services-sub-cont">
+                <div class="services-card">
+                    <h1 class="sc-h1">Google</h1>
+                    <img src="https://static-00.iconduck.com/assets.00/google-icon-2048x2048-czn3g8x8.png" class="test-logo">
+                    <p class="sc-p">Nihar manchi manchi websites naaku design chesichadu. Pani twaraga chesthadu.</p>
+                </div>
+                <div class="services-card">
+                    <h1 class="sc-h1">Facebook</h1>
+                    <img src="https://static-00.iconduck.com/assets.00/facebook-icon-2048x2048-pth4zu2i.png" class="test-logo">
+                    <p class="sc-p">Nenu manchi manchi Videos ni edit chestha interest unte nanni sampradinchandi.</p>
+                </div>
+                <div class="services-card">
+                    <h1 class="sc-h1">Instagram</h1>
+                    <img src="https://cdn-icons-png.flaticon.com/512/1384/1384063.png" class="test-logo">
+                    <p class="sc-p">Nenu manchi manchi photolani edit chestha interest unte nanni sampradinchandi.</p>
+                </div>
+            </div>
+        </div>
+        <div class="contact">
+            <h1 class="ser-h1">CONTACT US</h1>
+            <div class="contact-info">
+                <p>Dodagatta Nihar</p>
+                <p>+91 1234567890</p>
+                <p>dodagattanihar@gmail.com</p>
+            </div>
+            <div class="social-icons">
+                <div class="social-icon">
+                    <a href="https://www.instagram.com/niihaaarrrr/">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/1024px-Instagram-Icon.png" class="social-icon-img">
+                    </a>
+                    <a href="https://www.youtube.com/@niharrdg">
+                        <img src="https://www.iconpacks.net/icons/2/free-youtube-logo-icon-2431-thumb.png" class="social-icon-img">
+                    </a>
+                    <a href="https://www.linkedin.com/in/niharrdg">
+                        <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" class="social-icon-img">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </body>
+    </html>
+    ```
+    
+    style.css:
+    
+    ```css
+    @import url('https://fonts.googleapis.com/css2?family=Encode+Sans&family=Fira+Code&family=Fuggles&family=Montserrat:ital,wght@1,600&family=Mooli&family=Ubuntu:ital,wght@1,500&display=swap');@import url('https://fonts.googleapis.com/css2?family=Encode+Sans&family=Fira+Code&family=Fuggles&family=Montserrat:wght@200&family=Mooli&family=Ubuntu:ital,wght@1,500&display=swap');
+    body {
+        margin: 0;
+        background-color: black;
+        color: white;
+    }
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: black;
+    }
+    .navbar-left {
+        padding-left: 50px;
+    }
+    .logo-image {
+        height: 100px;
+    }
+    .navbar-right {
+        padding-right: 20px;
+        display: flex;
+        flex-direction: row;
+        align-items:center;
+    }
+    .a-element {
+        padding: 10px;
+        margin: 10px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .home {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        height: 85vh;
+    }
+    .home-left {
+        width: 50vw;
+        text-align: right;
+        padding-left: 200px;
+    }
+    .home-right {
+        width: 50vw;
+        padding-left: 100px;
+    }
+    .home-h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 25px;
+    }
+    .home-p {
+        font-family: 'Encode Sans', sans-serif;
+        font-size: 20px;
+    }
+    .services {
+        padding: 50px;
+        text-align: center;
+    }
+    .ser-h1 {
+        font-family: 'Ubuntu', sans-serif;
+        color: rgb(59, 211, 59);
+        letter-spacing: 3px;
+        font-size: 50px;
+        font-style: italic;
+    }
+    .services-sub-cont {
+        display: flex;
+        flex-direction: row;
+    
+    }
+    .services-card {
+        border: 2px rgb(47, 168, 47) solid;
+        margin: 20px;
+        padding: 20px;
+        width: 400px;
+    }
+    .sc-h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 25px;
+    }
+    .sc-p {
+        font-family: 'Encode Sans', sans-serif;
+        font-size: 20px;
+    }
+    .contact {
+        text-align: center;
+    }
+    .contact-info {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 25px;
+    }
+    .test-logo {
+        height: 50px;
+    }
+    .social-icon-img {
+        height: 50px;
+        padding: 20px;
+    }
+    ```
+    
+    ### Assignment Question:
+    Create a personal portfolio website incorporating the concepts we've covered so far, and then share the screenshots or a screen recording of it with [@mass_coders](http://instagram.com/mass_coders/) on Instagram. I will review it personally and let you know what all improvements can be made.
+    
+    ### Congrats Mowa Successful ga complete chesnav! Next session lo kaluddam :)
+###########################################################################################
+Tutorial_12:-
+###########################################################################################
+- Introduction to Bootstrap
+    
+    ### Watch Tutorial → [Click Here](https://youtu.be/fW7qLd1LSzc?si=ps0b-EKB114z4ufh)
+    
+    ### Introduction to Bootstrap
+    
+    Bootstrap is a popular front-end framework for building responsive and visually appealing web applications. It provides a set of pre-designed CSS styles, JavaScript components, and a responsive grid system to help you create a well-designed website or web application quickly. Here's an introduction to Bootstrap with code examples covering topics like including Bootstrap in your code, creating a navbar, buttons, a carousel, and cards.
+    
+    ### Including Bootstrap in Your Code
+    
+    To get started with Bootstrap, you need to include its CSS and JavaScript files in your HTML document. You can either download the Bootstrap files and host them on your server, or you can link to the Bootstrap CDN (Content Delivery Network) for a quicker setup. Here's how to include Bootstrap via CDN:
+    
+    ```html
+    <!doctype html>
+    <html lang="en">
+      <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap demo</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+      </head>
+      <body>
+        <h1>Hello, world!</h1>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+      </body>
+    </html>
+    
+    ```
+    
+    ### Navbar
+    
+    A Bootstrap navbar is a navigation bar that can be easily created using Bootstrap's navigation components. Here's an example of a simple navbar:
+    
+    ```html
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    ```
+    
+    ### Buttons
+    
+    Bootstrap provides various button styles and sizes. Here's how to create different types of buttons:
+    
+    ```html
+    <button class="btn btn-primary">Primary Button</button>
+    <button class="btn btn-secondary">Secondary Button</button>
+    <button class="btn btn-success">Success Button</button>
+    <button class="btn btn-danger">Danger Button</button>
+    <button class="btn btn-warning">Warning Button</button>
+    <button class="btn btn-info">Info Button</button>
+    <button class="btn btn-light">Light Button</button>
+    <button class="btn btn-dark">Dark Button</button>
+    
+    ```
+    
+    ### Carousel
+    
+    A Bootstrap carousel is used to showcase a set of images or content in a sliding manner. Here's a basic example of a Bootstrap carousel:
+    
+    ```html
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="..." class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="..." class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="..." class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    
+    ```
+    
+    ### Cards
+    
+    Bootstrap cards are versatile components for displaying various types of content. Here's an example of a Bootstrap card:
+    
+    ```html
+    <div class="card" style="width: 18rem;">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    
+    ```
+    
+    These are just the basics of Bootstrap. Bootstrap offers a wide range of components and utility classes to make your web development process faster and more responsive. You can explore the Bootstrap documentation for more details and customization options: https://getbootstrap.com/
+    
+    ### Attempt Quiz → [Click Here](https://forms.gle/yQt7Mei9SuxgmUzu6)
+    
+    ### Assignment Question:
+    Make a small website of your theme using the topics covered today.
+    
+    ### Congrats Mowa Successful ga complete chesnav! Next session lo kaluddam :)
+    
+################################################################################
+Tutorial_13:-
+
+- Build your own website using Bootstrap
+#################################################################################
+    
+    Refer to Bootstrap Documentation at: [getbootstrap.com](http://getbootstrap.com)
+    
+    ### Watch Tutorial → [Click Here](https://youtu.be/dVtvoqsCFHg?si=iFX3reACLPiyDUW4)
+    
+    **Code:**
+    index.html:
+    
+    ```html
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MassCoders</title>
+        <link rel="stylesheet" href="./massstyle.css" type="text/css">
+        <link rel="icon" href="https://res.cloudinary.com/nihars3/image/upload/v1695711604/oie_4tJfBuZmsuYT_eafcem.png" type="image/x-icon">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="mass-body">
+            <div class="navbar-section">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid mass-nav pl-5 pr-5">
+                      <img src="https://res.cloudinary.com/nihars3/image/upload/v1695711604/oie_4tJfBuZmsuYT_eafcem.png" class="mass-logo">
+                      <button class="navbar-toggler d-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav anchor">
+                          <a class="nav-link mass-anchor" href="#about">About</a>
+                          <a class="nav-link mass-anchor" href="#courses">Courses</a>
+                          <a class="nav-link mass-anchor" href="#workshops">Workshops</a>
+                          <a class="nav-link mass-anchor" href="#contact">Contact</a>
+                        </div>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+            <div class="body-section">
+                <div class="container-fluid">
+                    <div class="row d-flex flex-row justify-content-center">
+                        <!-- Left Half - Information About Me -->
+                        <div class="col-12 order-1 order-md-1 col-md-6 left-body">
+                            <h1 class="mass-nihar">DODAGATTA <span style="color: rgb(57, 211, 57);">NIHAR</span></h1>
+                            <p class="mass-nihar-para">I'm Nihar, a versatile tech enthusiast with a strong commitment to knowledge sharing and innovation. I wear multiple hats as a YouTuber and Instagram tech influencer, where I focus on teaching coding, MERN Stack development, and engaging in in-depth discussions about the ever-evolving tech landscape. My genuine love for AI adds an extra layer of excitement to my tech journey. I'm always eager to connect with fellow tech enthusiasts, creators, and professionals who share my passion for technology, learning, and growth.</p>
+                        </div>
+                        <!-- Right Half - My Photo -->
+                        <div class="col-12 order-0 order-md-2 col-md-4">
+                            <img src="https://res.cloudinary.com/nihars3/image/upload/v1698579978/tempImagewwyH9B-modified_kzi10d.png" alt="Dodagatta Nihar" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="what-we-do pt-5" id="about">
+                <div class="container">
+                    <h2 class="about-h1">about <span style="color: rgb(57, 211, 57);">us</span></h2>
+                    <p class="about-p">MassCoders, founded by Dodagatta Nihar in July 2023, is a visionary community with a mission to empower and inspire the youth to explore the world of coding. Our motto, "Motivating youth to code," encapsulates our dedication to making coding accessible and engaging for all, especially in native languages such as Telugu and expanding to Kannada.
+                    </p>
+                </div>
+            </div>
+            <div class="what-we-do" id="whatwedo">
+                <div class="container">
+                    <h2 class="about-h1">what we <span style="color: rgb(57, 211, 57);">do</span>?</h2>
+                    <p class="about-p">We specialize in providing coding tutorials in native languages, starting with Telugu, and extending our reach to Kannada. At MassCoders, we believe that learning to code should be inclusive and easy to understand, regardless of one's linguistic background.
+                    </p>
+                </div>
+            </div>
+            <div class="courses-offered" id="courses">
+                <div class="container">
+                    <h2 class="text-center about-h1">courses <span style="color: rgb(57, 211, 57);">offered</span></h2>
+                    <div class="row">
+                        <!-- Course 1 -->
+                        <div class="col-12 col-md-6">
+                            <div class="course-card">
+                                <a href="https://youtu.be/Ywfuw4SUDv8?si=cAAYSrz3RX4ONouu" style="text-decoration: none;">
+                                    <div>
+                                        <img src="https://res.cloudinary.com/nihars3/image/upload/v1696239218/Web_Development_with_MERN-2_wdcl1r.png" alt="Course 1">
+                                        <h3 class="course-title">Web development with <span style="color: rgb(57, 211, 57);">MERN</span></h3>
+                                        <p class="course-p">In my specialized web development course, I offer comprehensive tutorials in the Telugu language, focusing on the MERN (MongoDB, Express.js, React, Node.js) stack. With a deep commitment to clarity, I provide detailed explanations of every topic covered. You'll find in-depth notes accompanying the tutorials, serving as a valuable resource for your learning journey. To reinforce your understanding, I've included quizzes and practice questions to help you apply your knowledge effectively. Whether you're a beginner or an aspiring developer looking to enhance your skills, this course is designed to empower you with the tools and expertise you need for success in web development.
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Course 2 -->
+                        <div class="col-12 col-md-6">
+                            <div class="course-card">
+                                <a href="https://www.instagram.com/p/CvM4jVBp8F3/" style="text-decoration: none;">
+                                    <div>
+                                        <img src="https://res.cloudinary.com/nihars3/image/upload/v1696239443/Copy_of_Web_Development_with_MERN_eclmlb.png" alt="Course 2">
+                                        <h3 class="course-title">Python on <span style="color: rgb(57, 211, 57);">IG Reels</span></h3>
+                                        <p class="course-p">In my Instagram Reels Python course taught in Telugu, I'll help you learn Python easily. I provide clear and concise notes that explain the basics of Python step by step. To make sure you really understand, I include lots of practice questions that will help you get better at solving problems. Whether you're a beginner or someone who wants to get better at Python, this course is designed to help you. You'll gain practical skills that will make you confident in Python programming.</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="workshops" id="workshops">
+                <div class="container">
+                    <h2 class="text-center about-h1">access<span style="color: rgb(57, 211, 57);"> notes</span></h2>
+                    <a class="d-flex flex-row justify-content-center link-span" target="_blank" href="https://masscoders.notion.site/masscoders/Web-Development-with-MERN-eba16384715f473b95f25ab1ea050bc0">
+                        <div class="text-center">
+                            <img class="course-logo" src="https://cdn-icons-png.flaticon.com/512/2210/2210184.png">
+                        </div>
+                        <p class="pandaga-p text-center">Web Development</p>
+                    </a>
+                    <a class="d-flex flex-row justify-content-center link-span" target="_blank" href="https://masscoders.notion.site/Muppai-rojullo-Python-2f54ed7ca67e4d21a52eb60a3927b9e4?pvs=4"">
+                        <div class="text-center">
+                            <img class="course-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png">
+                        </div>
+                        <p class="pandaga-p text-center">Python</p>
+                    </a>
+                </div>
+            </div>
+            <div class="workshops" id="workshops">
+                <div class="container">
+                    <h2 class="text-center about-h1">work<span style="color: rgb(57, 211, 57);">shops</span></h2>
+                    <h2 class="text-center" style="font-size: 30px;">coming<span style="color: rgb(57, 211, 57);"> sooooooooon!</span></h2>
+                </div>
+            </div>
+            <div class="contact pb-5" id="contact">
+                <div class="container text-center">
+                    <h2 class="about-h1">contact<span style="color: rgb(57, 211, 57);"> us</span></h2>
+                    <p class="about-p">You can reach us via <span style="color: rgb(57, 211, 57);">email</span> and follow us on <span style="color: rgb(57, 211, 57);">social media</span>.</p>
+                    <!-- Email -->
+                    <p class="about-p"><strong>Email:</strong> <a href="mailto:codenihar@gmail.com"  style="color: rgb(57, 211, 57); text-decoration: none;">codenihar@gmail.com</a></p>
+            
+                    <!-- Social Media Links -->
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <a href="https://www.instagram.com/niihaaarrrr/" target="_blank" rel="noopener noreferrer">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/600px-Instagram_icon.png?20200512141346" alt="Instagram" class="social-icon">
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.linkedin.com/in/niharrdg/" target="_blank" rel="noopener noreferrer">
+                                <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" class="social-icon">
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://t.me/masscoders" target="_blank" rel="noopener noreferrer">
+                                <img src="https://static-00.iconduck.com/assets.00/telegram-icon-2048x2048-l6ni6sux.png" alt="Telegram" class="social-icon">
+                            </a>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+    
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    </body>
+    </html>
+    ```
+    
+    massstyle.css:
+    
+    ```css
+    /* Default styles for all screen sizes */
+    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Encode+Sans&family=Fira+Code&family=Fuggles&family=Gabarito&family=Montserrat:ital,wght@1,600&family=Mooli&family=Pixelify+Sans:wght@500&family=Poppins:wght@300&family=Titillium+Web&family=Ubuntu:ital,wght@1,500&display=swap');
+    
+    * {
+        color: white;
+    }
+    
+    .anchor {
+        margin-left: auto;
+    }
+    
+    .mass-logo {
+        height: 100px;
+        padding-left: 20px;
+    }
+    
+    .mass-anchor {
+        color: white !important;
+        padding-right: 20px !important;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .mass-anchor:hover {
+        color: rgb(40, 214, 40) !important;
+        transform: scale(1.09);
+    }
+    
+    .mass-nihar {
+        font-family: 'Encode Sans', sans-serif;
+        letter-spacing: 4px;
+        font-size: 50px;
+    }
+    
+    .mass-nihar-para {
+        font-family: 'Gabarito', cursive;
+        font-size: 20px;
+    }
+    
+    .mass-body {
+        background-image: url('https://res.cloudinary.com/nihars3/image/upload/v1696232927/photo-1619429858348-2d5ad1547e6c_nnvynb.jpg');
+        background-size: cover;
+        height: auto;
+    }
+    
+    .left-body {
+        padding-left: 100px !important;
+        color: white;
+        padding-top: 40px !important;
+    }
+    
+    .body-section {
+        padding-top: 100px;
+        text-align: center;
+        height: 80vh;
+    }
+    
+    .link-span {
+        text-decoration: none !important;
+        color: rgb(40, 214, 40) !important;
+    }
+    
+    .what-we-do {
+        color: white;
+        text-align: center;
+        padding-bottom: 20px;
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+    
+    .about-h1 {
+        font-family: 'DM Sans', sans-serif;
+        font-size: 50px;
+    }
+    
+    .about-title {
+        font-family: 'DM Sans', sans-serif;
+        font-size: 30px;
+    }
+    
+    .course-title {
+        font-family: 'DM Sans', sans-serif;
+        font-size: 25px;
+        padding-top: 20px;
+    }
+    
+    .about-p {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 25px;
+    }
+    .pandaga-p {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 25px;
+    }
+    .pandaga-p:hover {
+        color: rgb(40, 214, 40) !important;
+    }
+    
+    .course-p {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        max-width: 590px;
+    }
+    
+    .course-card {
+        border: 1px solid #ccc;
+        transition: all 0.3s;
+        margin-bottom: 20px;
+        padding: 20px;
+        text-align: center;
+        min-height: 800px;
+        padding: 10px;
+    }
+    
+    .course-card img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .course-card:hover {
+        border: 2px solid green;
+        transform: scale(1.05);
+    }
+    .course-logo{
+        height: 40px;
+        padding-right: 10px;
+    }
+    
+    .social-icon {
+        height: 50px;
+        padding-right: 20px;
+    }
+    
+    /* Responsive styles for mobile devices */
+    @media screen and (max-width: 768px) {
+        /* Adjust your styles for mobile devices here */
+        .mass-logo {
+            height: 80px;
+            padding-left: 10px;
+        }
+    
+        .mass-anchor {
+            padding-right: 10px !important;
+            font-size: 14px;
+        }
+    
+        .mass-nihar {
+            font-size: 40px;
+            text-align: center;
+        }
+    
+        .mass-nihar-para {
+            font-size: 16px;
+            text-align: center;
+        }
+    
+        .body-section {
+            padding-top: 50px;
+        }
+    
+        .what-we-do {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    
+        .about-h1 {
+            font-size: 40px;
+        }
+    
+        .about-title {
+            font-size: 24px;
+        }
+    
+        .course-title {
+            font-size: 20px;
+        }
+    
+        .about-p {
+            font-size: 20px;
+        }
+    
+        .course-p {
+            font-size: 16px;
+            max-width: 100%;
+        }
+    
+        .course-card {
+            min-height: auto;
+            padding: 10px;
+        }
+        .body-section {
+            height: auto;
+    
+        }
+        .left-body {
+            padding-left: 0px !important;
+            padding: 20px !important;
+        }
+    }
+    ```
+   ####################################################################
+   Tutorial_14:-
+   - Git and GitHub
+   ####################################################################
+
+    ### Watch Tutorial → [Click Here](https://youtu.be/MyE9r3H-35M?si=wtoWn579grNh0V7R)
+    
+    Git and GitHub are essential tools for version control and collaboration in software development.
+    
+    ## Git:
+    
+    Git is a distributed version control system (DVCS) used for tracking changes in source code during software development. It allows multiple developers to collaborate on the same project efficiently.
+    
+    ### 1. Version Control:
+    
+    - Git enables developers to track changes in their code over time, providing a complete history of modifications.
+    
+    ### 2. Distributed:
+    
+    - Git is a distributed version control system, meaning that each developer has a full copy of the repository, allowing them to work offline and independently.
+    
+    ### 3. Branching and Merging:
+    
+    - Developers can create branches to work on different features or fixes independently. Merging allows combining these changes seamlessly.
+    
+    ### 4. Local Repository:
+    
+    - Git operates locally on your machine, which means you can commit changes and experiment without affecting the central repository until you choose to push your changes.
+    
+    ### 5. Commit History:
+    
+    - Git keeps a record of every change made to the codebase, making it easy to trace back and understand the evolution of the project.
+    
+    ## GitHub:
+    
+    GitHub is a web-based platform that hosts Git repositories, providing a central location for collaboration, code hosting, and project management.
+    
+    ### 1. Centralized Collaboration:
+    
+    GitHub provides a central platform where developers can collaborate on projects by hosting Git repositories.
+    
+    ### 2. Code Hosting:
+    
+    Developers can store their code in GitHub repositories, making it accessible from anywhere with an internet connection.
+    
+    ### 3. Issue Tracking:
+    
+    GitHub's issue tracker allows teams to report, track, and manage tasks, bugs, and feature requests in an organized manner.
+    
+    ### 4. Pull Requests:
+    
+    Pull requests in GitHub facilitate code review and collaboration by proposing and discussing changes before merging them into the main codebase.
+    
+    ### 5. Workflow Automation:
+    
+    GitHub Actions enables automation of tasks like building, testing, and deploying code, streamlining the development process.
+    
+    ### 6. Documentation:
+    
+    GitHub offers wiki functionality for collaborative documentation, helping teams create and maintain project documentation.
+    
+    ### 7. Project Management:
+    
+    GitHub Projects allows for the organization and prioritization of work using customizable boards, making it easier to manage tasks and milestones.
+    
+    ### 8. Public and Private Repositories:
+    
+    GitHub provides both public and private repositories, allowing projects to be shared openly or kept confidential, depending on the needs of the developers.
+    
+    ### **Notes:**
+    
+    - GitHub is not the only platform for hosting Git repositories. Alternatives include GitLab and Bitbucket.
+    - Collaborators can work together on a project by forking a repository and creating pull requests.
+    - GitHub offers free public repositories, but private repositories require a subscription.
+    
+    GitHub serves as a hub for developers, providing tools and features that enhance collaboration, code management, and project organization, while Git itself underlies version control and allows for efficient tracking of code changes. Together, Git and GitHub support effective software development and project management.
+    
+    ### Attempt Quiz → [Click Here](https://forms.gle/G7oWDicDXMrb1K4g7)
+    
+    ### Part-2 Watch Tutorial → [Click Here](https://youtu.be/0NQCRKvh-4E?si=QoZx-DHAtYL3g94O)
+    
+    ### Installing Git:
+    
+    Official Website: https://git-scm.com/downloads
+    
+    ### 1. **Mac:**
+    
+    - **Homebrew:**
+        
+        ```bash
+        /bin/bash -c "$(curl -fsSL <https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh>)"
+        brew install git
+        
+        ```
+        
+    - **Xcode Command Line Tools:**
+        
+        ```bash
+        xcode-select --install
+        
+        ```
+        
+    
+    ### 2. **Linux (Ubuntu/Debian):**
+    
+    ```bash
+    sudo apt update
+    sudo apt install git
+    
+    ```
+    
+    ### 3. **Windows:**
+    
+    Download and install Git from the official website: [Git for Windows](https://gitforwindows.org/)
+    
+    ### Initializing a Git Repository:
+    
+    ### 1. **Create a New Local Repository:**
+    
+    ```bash
+    git init
+    
+    ```
+    
+    ### 2. **Configure User Information:**
+    
+    ```bash
+    git config --global user.name "Your Name"
+    git config --global user.email "your.email@example.com"
+    
+    ```
+    
+    ### Hosting on GitHub:
+    
+    ### 1. **Create a New Repository on GitHub:**
+    
+    - Go to [GitHub](https://github.com/).
+    - Click on the "+" sign in the top right and choose "New repository".
+    - Follow the instructions to create a new repository.
+    
+    ### 2. **Connect Local Repository to GitHub:**
+    
+    - Change into your local repository directory:
+        
+        ```bash
+        cd /path/to/your/repo
+        
+        ```
+        
+    - Link your local repository to the GitHub repository:
+        
+        ```bash
+        git remote add origin <https://github.com/your-username/your-repo.git>
+        
+        ```
+        
+    
+    ### 3. **Add, Commit, and Push to GitHub:**
+    
+    - Add files to the staging area:
+        
+        ```bash
+        git add .
+        
+        ```
+        
+    - Commit changes:
+        
+        ```bash
+        git commit -m "Initial commit"
+        
+        ```
+        
+    - Push changes to GitHub:
+        
+        ```bash
+        git push -u origin master
+        
+        ```
+        
+    
+    ### 4. **Verify on GitHub:**
+    
+    Refresh your GitHub repository page, and you should see your files.
+    
+    These instructions assume you are using HTTPS for simplicity. If you set up SSH keys, you can use the SSH URL instead of the HTTPS URL when adding the remote. Additionally, replace "your-username" and "your-repo" with your GitHub username and the name of your repository.
+    
+    ###################################################################
+    Tutorial_15:-
+   - Introduction to JavaScript
+    #######################################################################
+    
+    ### Watch Tutorial → [Click Here](https://youtu.be/ATORtFl9DEI)
+    
+    ### **Introduction to JavaScript**
+    
+    **1. What is JavaScript?**
+    
+    - JavaScript is a high-level, versatile, and dynamic programming language primarily used for building interactive web pages and web applications.
+    - It's often referred to as the "language of the web" because it's the most common scripting language used in web development.
+    
+    **2. History of JavaScript:**
+    
+    - Developed by Netscape Communications Corporation, led by Brendan Eich in 1995.
+    - Initially named "LiveScript" but later renamed JavaScript for marketing purposes.
+    - Standardized as ECMAScript.
+    
+    **3. JavaScript in Web Development:**
+    
+    - JavaScript is primarily used to enhance the functionality of web pages by adding interactivity and dynamic behaviour.
+    - It can be embedded within HTML code and executed by web browsers.
+    
+    **4. Features of JavaScript:**
+    
+    - **High-level language:** JavaScript abstracts many of the low-level details, making it easier to write and understand code.
+    - **Interpreted:** It's executed by the web browser without the need for compilation.
+    - **Dynamic and loosely typed:** Variables can change types, and you don't need to specify types explicitly.
+    - **Object-oriented:** JavaScript is centered around objects and supports object-oriented programming.
+    - **Cross-platform:** Runs on all major web browsers and platforms.
+    
+    **5. Basic JavaScript Syntax:**
+    
+    - JavaScript code is written in script tags `<script></script>` within an HTML document.
+    - Common statements and constructs include variables, data types, operators, conditional statements (if, else), loops (for, while), and functions.
+    - Example:
+        
+        ```jsx
+        // Variables and data types
+        var name = "Dodagatta Nihar";
+        var age = 19;
+        var isStudent = true;
+        
+        // Functions
+        function greet(person) {
+          return "Hello, " + person;
+        }
+        
+        ```
+        
+    
+    **6. DOM Manipulation:**
+    
+    - JavaScript is used to manipulate the Document Object Model (DOM) of a web page.
+    - It can change HTML elements, attributes, and styles dynamically, making web pages interactive.
+    
+    **7. Events and Event Handling:**
+    
+    - JavaScript allows you to respond to user actions (clicks, keypresses, etc.) by defining event handlers.
+    - Event-driven programming is a key concept in JavaScript.
+    
+    **8. Libraries and Frameworks:**
+    
+    - JavaScript has a vast ecosystem of libraries and frameworks like jQuery, React, Angular, and Vue.js to simplify web development.
+    
+    **9. Modern JavaScript (ECMAScript):**
+    
+    - ES6 (ECMAScript 2015) introduced new features like arrow functions, classes, template literals, and more to make JavaScript development more efficient and maintainable.
+    
+    **10. Debugging and Development Tools:**
+    - Browsers have built-in developer tools for debugging and inspecting JavaScript code.
+    
+    **11. Server-Side JavaScript:**
+    - Node.js allows developers to use JavaScript on the server-side, opening up opportunities for building full-stack applications.
+    
+    **12. Security Considerations:**
+    - JavaScript can potentially introduce security vulnerabilities, so developers need to be aware of best practices for securing their applications.
+    
+    In summary, JavaScript is a fundamental language for web development, enabling the creation of interactive and dynamic web applications. Its versatility, along with the support of modern libraries and frameworks, has made it a powerful tool for web developers.
+    
+    ### Attempt Quiz → [Click Here](https://forms.gle/xofXNBHeVxwCt87Z6)
+    
+    #################################################
+    Tutorial_16:-
+    - Variables and Data types
+    #######################################################
+    ### Watch Tutorial → [Click Here](https://www.youtube.com/watch?v=DI8Xjzzrx5k)
+    
+    ### **Variables in JavaScript:**
+    
+    Variables in JavaScript are used to store data values. You can think of them as containers that hold different types of information. To declare a variable in JavaScript, you can use the `var`, `let`, or `const` keywords.
+    
+    1. **`var` :**
+        - `var` was traditionally used for variable declaration, but it has some scope issues and is less commonly used now.
+        
+        ```jsx
+        var age = 19; // Declaring a variable 'age' and assigning it a value of 19
+        age = 20; // You can change the value of a 'var' variable
+        
+        ```
+        
+    2. **`let`:**
+        - `let` allows you to declare block-scoped variables, which means they are only accessible within the block (e.g., inside a function or loop) where they are defined.
+        
+        ```jsx
+        let name = "Dodagatta Nihar";
+        let age = 19;
+        
+        ```
+        
+    3. **`const`:**
+        - `const` is used to declare constants. Once a value is assigned to a `const`, it cannot be changed.
+        
+        ```jsx
+        const pi = 3.14159;
+        
+        ```
+        
+    
+    **Data Types in JavaScript:**
+    
+    JavaScript has several data types to represent different kinds of values. These data types include:
+    
+    1. **Primitive Data Types:**
+        
+        a. **String:**
+        
+        - Represents textual data and is enclosed in single or double quotes.
+        
+        ```jsx
+        let name = "Dodagatta Nihar";
+        
+        ```
+        
+        b. **Number:**
+        
+        - Represents both integer and floating-point numbers.
+        
+        ```jsx
+        let age = 19;
+        let price = 19.69;
+        
+        ```
+        
+        c. **Boolean:**
+        
+        - Represents `true` or `false` values.
+        
+        ```jsx
+        let isStudent = true;
+        let isAdmin = false;
+        
+        ```
+        
+        d. **Undefined:**
+        
+        - Represents a variable that has been declared but hasn't been assigned a value.
+        
+        ```jsx
+        let x;
+        console.log(x); // This will output 'undefined'
+        
+        ```
+        
+        e. **Null:**
+        
+        - Represents the intentional absence of any object value.
+        
+        ```jsx
+        let emptyValue = null;
+        
+        ```
+        
+    2. **Reference Data Types:**
+        
+        a. **Object:**
+        
+        - Used to store collections of key-value pairs. Objects are created using curly braces `{}`.
+        
+        ```jsx
+        let person = {
+          name: "Bob",
+          age: 30,
+        };
+        
+        ```
+        
+        b. **Array:**
+        
+        - Used to store ordered collections of values. Arrays are created using square brackets `[]`.
+        
+        ```jsx
+        let colors = ["red", "green", "blue"];
+        
+        ```
+        
+        c. **Function:**
+        
+        - Functions are objects and can be assigned to variables, passed as arguments, and returned from other functions.
+        
+        ```jsx
+        function greet(name) {
+          return `Hello, ${name}!`;
+        }
+        
+        ```
+        
+    
+    These are the fundamental concepts of variables and data types in JavaScript. Understanding these concepts is essential for writing effective and flexible JavaScript code.
+    
+    ### Attempt Quiz → [Click Here](https://forms.gle/zdX7CBHUMqLMRp316)
+    
+    ### Assignment Questions:
+    
+    1. **Variable Declaration:**
+        - **Question:** Declare a variable called `myNumber` and assign it the value `5`. Output the value using `console.log()`.
+    2. **Boolean Variable:**
+        - **Question:** Declare a variable called `isSunny` and assign it the value `true`. Output the value using `console.log()`.
+    3. **String Concatenation:**
+        - **Question:** Declare two variables, `firstName` and `lastName`, and assign them your first and last name, respectively. Concatenate them to form a full name and output the result.
+    4. **Array Declaration:**
+        - **Question:** Declare an array called `myArray` with three elements: `1`, `2`, and `3`. Output the array using `console.log()`.
+    5. **Object Declaration:**
+        - **Question:** Create an object called `myObject` with a property `color` set to `"blue"` and another property `number` set to `42`. Output the object using `console.log()`.
+    
+    ################################################################
+    Tutorial_17:-
+ - Arithmetic and Comparison Operators
+    ###################################################################
+    ### Watch Tutorial → [Click Here](https://youtu.be/mrSacf2obos)
+    
+    ### **Arithmetic Operators:**
+    
+    Arithmetic operators in JavaScript allow you to perform mathematical calculations on numeric values. Here are the most common arithmetic operators:
+    
+    1. **Addition (+):** Adds two numbers together.
+        
+        ```jsx
+        let sum = 5 + 3; // sum will be 8
+        
+        ```
+        
+    2. **Subtraction (-):** Subtracts the right operand from the left operand.
+        
+        ```jsx
+        let difference = 10 - 4; // difference will be 6
+        
+        ```
+        
+    3. **Multiplication (*):** Multiplies two numbers.
+        
+        ```jsx
+        let product = 6 * 7; // product will be 42
+        
+        ```
+        
+    4. **Division (/):** Divides the left operand by the right operand.
+        
+        ```jsx
+        let quotient = 20 / 4; // quotient will be 5
+        
+        ```
+        
+    5. **Modulus (%):** Returns the remainder of the division of the left operand by the right operand.
+        
+        ```jsx
+        let remainder = 17 % 5; // remainder will be 2
+        
+        ```
+        
+    6. **Increment (++) and Decrement (--):** These operators increase or decrease a variable by 1.
+        
+        ```jsx
+        let count = 5;
+        count++; // Increment by 1, count is now 6
+        count--; // Decrement by 1, count is now 5
+        
+        ```
+        
+    
+    ### **Comparison Operators:**
+    
+    Comparison operators in JavaScript are used to compare values and return Boolean results (`true` or `false`). Here are some common comparison operators:
+    
+    1. **Equal (==):** Checks if two values are equal, but it doesn't consider data types (type coercion).
+        
+        ```jsx
+        5 == "5"; // true (values are equal, type coercion)
+        
+        ```
+        
+    2. **Not Equal (!=):** Checks if two values are not equal, with type coercion.
+        
+        ```jsx
+        5 != "3"; // true (values are not equal, type coercion)
+        
+        ```
+        
+    3. **Strict Equal (===):** Checks if two values are equal and have the same data type (no type coercion).
+        
+        ```jsx
+        5 === 5; // true (values and data types are equal)
+        
+        ```
+        
+    4. **Strict Not Equal (!==):** Checks if two values are not equal or have different data types.
+        
+        ```jsx
+        5 !== "5"; // true (values are not equal or have different data types)
+        
+        ```
+        
+    5. **Greater Than (>):** Checks if the left value is greater than the right value.
+        
+        ```jsx
+        10 > 5; // true
+        
+        ```
+        
+    6. **Less Than (<):** Checks if the left value is less than the right value.
+        
+        ```jsx
+        3 < 7; // true
+        
+        ```
+        
+    7. **Greater Than or Equal (>=):** Checks if the left value is greater than or equal to the right value.
+        
+        ```jsx
+        10 >= 10; // true
+        
+        ```
+        
+    8. **Less Than or Equal (<=):** Checks if the left value is less than or equal to the right value.
+        
+        ```jsx
+        3 <= 3; // true
+        
+        ```
+        
+    
+    These operators are crucial for performing comparisons and making decisions in your JavaScript code. Understanding how to use them effectively is fundamental for writing robust programs.
+    
+    ### Attempt Quiz → [Click Here](https://forms.gle/Z2x7XMW2hBAPvUQE6)
+    
+    ### Assignment Questions:
+    
+    1. Code a statement that adds 5 and 7. Assign the result to a variable called `sum`.
+    2. Write a line of code that subtracts 3 from 10. Store the result in a variable named `difference`.
+    3. Use JavaScript to multiply 4 by 6. Save the product in a variable called `product`.
+    4. Create a line of code that divides 15 by 3. Save the quotient in a variable named `quotient`.
+    5. Write a statement that checks if 8 is equal to "8". Store the result in a variable named `isEqual`.
+    6. Code a line that verifies if 10 is greater than 5. Save the result in a variable named `isGreaterThan`.
+    7. Implement a statement that checks if 6 is not equal to 6. Store the result in a variable named `isNotEqual`
+
+    ##########################################################
+    Tutorial_18:-
+  - Logical Operators
+    ###############################################################
+    ### Watch Tutorial → **[Click Here](https://www.youtube.com/watch?v=FKPNI-iev3M)**
+    
+    ### Logical Operators
+    
+    Logical operators in JavaScript are used to combine or manipulate Boolean values. They allow you to make more complex decisions by evaluating multiple conditions. There are three main logical operators in JavaScript: `&&` (AND), `||` (OR), and `!` (NOT). Let's explore these operators with examples:
+    
+    **1. Logical AND (`&&`):**
+    
+    The `&&` operator returns `true` if both of its operands are `true`. If at least one of the operands is `false`, it returns `false`.
+    
+    ```jsx
+    let isTrue = true;
+    let isFalse = false;
+    
+    let result1 = isTrue && isTrue; // true (both operands are true)
+    let result2 = isTrue && isFalse; // false (one operand is false)
+    let result3 = isFalse && isFalse; // false (both operands are false)
+    
+    ```
+    
+    **2. Logical OR (`||`):**
+    
+    The `||` operator returns `true` if at least one of its operands is `true`. If both operands are `false`, it returns `false`.
+    
+    ```jsx
+    let isTrue = true;
+    let isFalse = false;
+    
+    let result1 = isTrue || isTrue; // true (both operands are true)
+    let result2 = isTrue || isFalse; // true (one operand is true)
+    let result3 = isFalse || isFalse; // false (both operands are false)
+    
+    ```
+    
+    **3. Logical NOT (`!`):**
+    
+    The `!` operator is a unary operator that negates a Boolean value. It returns `true` if the operand is `false`, and `false` if the operand is `true`.
+    
+    ```jsx
+    let isTrue = true;
+    let isFalse = false;
+    
+    let result1 = !isTrue; // false (negating true)
+    let result2 = !isFalse; // true (negating false)
+    
+    ```
+    
+    **Combining Logical Operators:**
+    
+    You can combine logical operators to create more complex conditions. Parentheses are often used to control the order of evaluation.
+    
+    ```jsx
+    let x = 5;
+    let y = 10;
+    
+    let isGreater = (x > y) && (x !== 0); // false (both conditions must be true)
+    let isEither = (x < y) || (y === 10); // true (at least one condition must be true)
+    let isNotZero = !(x === 0); // true (negating a false condition)
+    
+    ```
+    
+    ### Attempt Quiz → [Click Here](https://forms.gle/JTgWeNPw54eHf4HEA)
+    
+    ### Assignment Questions:
+    
+    1. Write a program that checks whether a given number is between 10 and 20 (inclusive). Use the logical AND operator (**`&&`**) for this task.
+    2. Create a program that determines whether a given year is a leap year. A leap year is either divisible by 4 but not by 100 unless it is divisible by 400. Use the logical OR operator (**`||`**) in your solution.
+    3. Write a program that takes a boolean parameter and returns the opposite value. Use the logical NOT operator (**`!`**) to achieve this.
+    4. Create a program that asks the user for their age and whether they have a valid driver's license. Allow them to proceed only if they are 18 or older and have a valid driver's license. Use a combination of logical operators.
+    5. Write a program that determines if a given number is positive and even.
+    
+    Note: use prompt() function to get user input
+    
+    ###############################################################
+    Tutorial_19:-
+   - Conditional Statements
+    ###############################################################
+    ### Watch Tutorial → [Click Here](https://www.youtube.com/watch?v=ATCJTW3b-6g)
+    
+    ### Conditional Statements
+    
+    Conditional statements in JavaScript allow you to control the flow of your program based on certain conditions. They enable you to make decisions and execute different blocks of code depending on whether a condition is `true` or `false`. There are three primary conditional statements in JavaScript: `if`, `else if`, and `else`. Let's explore them with examples:
+    
+    **1. The `if` Statement:**
+    
+    The `if` statement is used to execute a block of code if a condition is `true`.
+    
+    ```jsx
+    let temperature = 25;
+    
+    if (temperature > 30) {
+      console.log("It's a hot day!"); // This code block will not execute
+    }
+    
+    if (temperature <= 30) {
+      console.log("It's a pleasant day!"); // This code block will execute
+    }
+    
+    ```
+    
+    **2. The `if...else` Statement:**
+    
+    The `if...else` statement is used when you want to execute one block of code if a condition is `true`, and another block if it's `false`.
+    
+    ```jsx
+    let age = 18;
+    
+    if (age >= 18) {
+      console.log("You are an adult.");
+    } else {
+      console.log("You are a minor.");
+    }
+    
+    ```
+    
+    **3. The `else if` Statement:**
+    
+    The `else if` statement allows you to specify multiple conditions to check. It's often used in conjunction with `if...else` statements.
+    
+    ```jsx
+    let hour = 14;
+    
+    if (hour < 12) {
+      console.log("Good morning!");
+    } else if (hour < 18) {
+      console.log("Good afternoon!");
+    } else {
+      console.log("Good evening!");
+    }
+    
+    ```
+    
+    **Nesting Conditional Statements:**
+    
+    You can also nest conditional statements within each other to create more complex logic.
+    
+    ```jsx
+    let isWeekend = true;
+    let time = 14;
+    
+    if (isWeekend) {
+      if (time < 12) {
+        console.log("Good morning on the weekend!");
+      } else {
+        console.log("Good afternoon on the weekend!");
+      }
+    } else {
+      if (time < 12) {
+        console.log("Good morning on a weekday!");
+      } else {
+        console.log("Good afternoon on a weekday!");
+      }
+    }
+    
+    ```
+    
+    **Ternary Operator:**
+    
+    JavaScript also provides a concise way to write simple conditional statements using the ternary operator (`? :`).
+    
+    ```jsx
+    let isRaining = true;
+    let weatherMessage = isRaining ? "Bring an umbrella." : "No need for an umbrella.";
+    console.log(weatherMessage);
+    
+    ```
+    
+    Conditional statements are fundamental for writing dynamic and responsive programs, allowing you to control the logic of your code based on different conditions and scenarios.
+    
+    ### Attempt Quiz → [Click Here](https://forms.gle/2CG8Mjsvs7YE1SAQ8)
+    
+    ### Assignment Questions:
+    
+    1. Write an `if...else` statement that assigns "It's hot" to a variable `weather` if the temperature is over 80 degrees, and "It's nice" if the temperature is 80 degrees or cooler. Log the `weather` variable to the console.
+    2. Write a ternary statement that checks if a variable `age` is 18 or over. If so, assign the variable `canVote` to `true`, otherwise assign it to `false`. Log the `canVote` variable.
+    3. Write nested conditional statements that check if a variable `day` is Saturday or Sunday, and if a variable `time` is before 11am. If both conditions are true, log "Sleep in!", else log "Wake up!".
+    4. Write a series of `if`, `else if`, and `else` statements that check if a variable `temp` is below 32 (freezing), between 32 and 50 (cold), between 50 and 70 (pleasant), or above 70 (hot). Log an appropriate message for each temperature range.
+    5. Write conditional statements to implement a simple calculator. Have the user input two numbers and an operation ("+","-","*","/"). Based on the operation, perform the mathematical operation on the numbers and log the result. Handle division by zero gracefully without errors.
+    
+    ### Congrats Mowa Successful ga complete chesnav! Next session lo kaluddam :)
+    #####################################################################
+    Tutorial_20:-
+      - Loops in JavaScript
+    ####################################################################
+    - Loops in JavaScript
+    
+    ### Watch Tutorial → [Click Here](https://www.youtube.com/watch?v=c8ag6F3c0X0)
+    
+    ### Loops
+    
+    In JavaScript, loops are used to execute a block of code repeatedly. There are several types of loops in JavaScript, but the most common ones are `for` loops, `while` loops, and `do...while` loops. Let's explore these loops with examples:
+    
+    **1. `for` Loop:**
+    
+    The `for` loop is used when you know how many times you want to repeat a block of code. It consists of three parts: initialization, condition, and increment/decrement.
+    
+    ```jsx
+    for (let i = 0; i < 5; i++) {
+      console.log("Iteration number: " + i);
+    }
+    
+    ```
+    
+    This loop will execute the code block five times, starting from `i = 0`, incrementing `i` by 1 with each iteration until the condition (`i < 5`) is no longer true.
+    
+    **2. `while` Loop:**
+    
+    The `while` loop is used when you don't know in advance how many times you want to repeat a block of code. It continues as long as a specified condition is `true`.
+    
+    ```jsx
+    let count = 0;
+    
+    while (count < 5) {
+      console.log("Count is: " + count);
+      count++;
+    }
+    
+    ```
+    
+    This loop will execute the code block as long as the condition `count < 5` remains `true`.
+    
+    **3. `do...while` Loop:**
+    
+    The `do...while` loop is similar to the `while` loop, but it always executes the code block at least once before checking the condition.
+    
+    ```jsx
+    let x = 0;
+    
+    do {
+      console.log("x is: " + x);
+      x++;
+    } while (x < 5);
+    
+    ```
+    
+    This loop first executes the code block and then checks the condition `x < 5`. If it's `true`, the loop continues; otherwise, it stops.
+    
+    **Loop Control Statements:**
+    
+    JavaScript provides loop control statements that allow you to control the flow of loops:
+    
+    - `break`: Terminates the loop.
+    - `continue`: Skips the current iteration and continues to the next one.
+    
+    **Example with `break`:**
+    
+    ```jsx
+    for (let i = 0; i < 10; i++) {
+      if (i === 5) {
+        break; // Stop the loop when i is 5
+      }
+      console.log("i is: " + i);
+    }
+    
+    ```
+    
+    **Example with `continue`:**
+    
+    ```jsx
+    for (let i = 0; i < 10; i++) {
+      if (i === 5) {
+        continue; // Skip the iteration when i is 5
+      }
+      console.log("i is: " + i);
+    }
+    
+    ```
+    
+    Loops are essential for iterating over arrays, processing data, and performing repetitive tasks in your JavaScript programs. Understanding how to use loops effectively is a fundamental skill for any JavaScript developer.
+    
+    ### Attempt Quiz → [Click Here](https://forms.gle/oTJPA8J9Vx2AYEeN6)
+    
+    ### Assignment Questions:
+    
+    1. Write a for loop that prints all even numbers from 0 to 10.
+    2. Initialize an array of 5 fruits. Use a for loop to print all the elements.
+    3. Take an array of numbers as input. Use a do-while loop to compute their sum by iterating over the array (hint: arrayname.length).
+    4. Write a loop that iterates from 7 to 77 and prints only those numbers which are multiples of 7. (use the modulus operator `%`)
+    5. Use nested for loops to print the following pattern:
+    
+    ```
+    *
+    * *
+    * * *
+    * * * *
+    * * * * *
+    
+    ```
+    
+    ### Congrats Mowa Successful ga complete chesnav! Next session lo kaluddam :)
+    ############################################################
+    - Arrays in JavaScript
+    ############################################################
+    - Arrays in JavaScript
+    
+    ### Watch Tutorial → [Click Here](https://www.youtube.com/watch?v=SPiX08QcXTg)
+    
+    ### Arrays
+    
+    Arrays in JavaScript are a data structure used to store collections of values in a single variable. You can access the elements in an array by their index, and arrays are very versatile and widely used in JavaScript for a variety of tasks.
+    
+    **Declaration and Initialization:**
+    
+    To declare and initialize an array in JavaScript, you can use square brackets to enclose the array elements. Here's an example:
+    
+    ```jsx
+    // Declaration and initialization of an array
+    let fruits = ['apple', 'banana', 'cherry', 'date'];
+    
+    // Accessing elements by index
+    console.log(fruits[0]); // Output: 'apple'
+    
+    ```
+    
+    ### Array Methods
+    
+    1. **Push Method:**
+        
+        The `push` method adds one or more elements to the end of an array and returns the new length of the array.
+        
+        ```jsx
+        fruits.push('elderberry');
+        console.log(fruits); // Output: ['apple', 'banana', 'cherry', 'date', 'elderberry']
+        
+        ```
+        
+    2. **Pop Method:**
+        
+        The `pop` method removes the last element from an array and returns that element.
+        
+        ```jsx
+        let removedFruit = fruits.pop();
+        console.log(removedFruit); // Output: 'elderberry'
+        console.log(fruits); // Output: ['apple', 'banana', 'cherry', 'date']
+        
+        ```
+        
+    3. **Shift Method:**
+        
+        The `shift` method removes the first element from an array and returns that element.
+        
+        ```jsx
+        let removedFruit = fruits.shift();
+        console.log(removedFruit); // Output: 'apple'
+        console.log(fruits); // Output: ['banana', 'cherry', 'date']
+        
+        ```
+        
+    4. **Unshift Method:**
+        
+        The `unshift` method adds one or more elements to the beginning of an array and returns the new length of the array.
+        
+        ```jsx
+        fruits.unshift('apricot', 'fig');
+        console.log(fruits); // Output: ['apricot', 'fig', 'banana', 'cherry', 'date']
+        
+        ```
+        
+    
+    ### Attempt Quiz → [Click Here](https://forms.gle/7R8VXdzjwaFmFJDQ8)
+    
+    ### Assignment Questions:
+    
+    1. Create an array called "fruits" and add 3 fruits to it using the push() method. Then remove the last fruit using the pop() method and display the updated array.
+    2. Create an array called "vegetables" with 5 items. Remove the first item using shift() and add a new item to the beginning using unshift(). Display the updated array.
+    3. Create an array called "nums" with numbers 1-5. Using a loop, remove all existing items and add numbers 6-10 using the push() method. Display the final array.
+    4. Create an array called "strings" with 5 string values. Using push() and unshift(), add 2 items to beginning and end. Using pop() and shift(), remove 2 items from beginning and end. Display array after each operation.
+    
+    ### Congrats Mowa Successful ga complete chesnav! Next session lo kaluddam :)
+    #########################################################################
+    Tutorial_21:-
+    - Few more Array Methods
+    ###############################################################################
+    
+    ### Watch Tutorial → [Click Here](https://www.youtube.com/watch?v=8CQTwWLJqHs)
+    
+    ### Few more Array Methods
+    
+    **`concat` Method:**
+    
+    The `concat` method is used to merge two or more arrays and returns a new array.
+    
+    ```jsx
+    let fruits = ['apple', 'banana'];
+    let vegetables = ['carrot', 'broccoli'];
+    let combined = fruits.concat(vegetables);
+    ```
+    
+    **`slice` Method:**
+    
+    The `slice` method extracts a section of an array and returns it as a new array.
+    
+    ```jsx
+    let subArray = combined.slice(2, 4); // Extract elements at indices 2 an
+    
+    ```
+    
+    **`splice` Method:**
+    
+    The `splice` method can be used to add, remove, or replace elements within an array.
+    
+    ```jsx
+    combined.splice(2, 2, 'grape', 'kiwi'); // Remove 2 elements from index 2 and insert 'grape' and 'ki
+    ```
+    
+    **`indexOf` Method:**
+    
+    The `indexOf` method returns the first index at which a given element is found in the array, or -1 if it is not present.
+    
+    ```jsx
+    let index = combined.indexOf('kiwi');
+    ```
+    
+    **`filter` Method:**
+    
+    The `filter` method creates a new array with all elements that pass a test implemented by a provided function.
+    
+    ```jsx
+    let filtered = combined.filter(item => item.length > 5);
+    
+    ```
+    
+    **`forEach` Method:**
+    
+    The `forEach` method allows you to iterate over the elements of an array and execute a function for each element.
+    
+    ```jsx
+    let numbers = [1, 2, 3, 4, 5];
+    numbers.forEach(function(number) {
+      console.log(number * 2);
+    });
+    // Output: 2, 4, 6, 8, 10
+    
+    ```
+    
+    **`map` Method:**
+    
+    The `map` method creates a new array by applying a function to each element of the original array.
+    
+    ```jsx
+    let squared = numbers.map(function(number) {
+      return number * number;
+    });
+    console.log(squared); // Output: [1, 4, 9, 16, 25]
+    
+    ```
+    
+    **`find` Method:**
+    
+    The `find` method returns the first element in an array that satisfies a provided testing function.
+    
+    ```jsx
+    let even = numbers.find(function(number) {
+      return number % 2 === 0;
+    });
+    console.log(even); // Output: 2 (the first even number)
+    
+    ```
+    
+    **`sort` Method:**
+    
+    The `sort` method is used to sort the elements of an array in place and return the sorted array.
+    
+    ```jsx
+    let fruits = ['banana', 'cherry', 'apple', 'date'];
+    fruits.sort();
+    console.log(fruits); // Output: ['apple', 'banana', 'cherry', 'date']
+    ```
+    
+    ### Attempt Quiz → [Click Here](https://forms.gle/FUkf4y5smCZEMEqk6)
+    
+    ### Assignment Questions:
+    
+    1. Create an array of 5 student names. Take a new input student name from the user and add it to the existing array using concat(). Display the final array.
+    2. Create an array of length 10 with random numbers between 1-100. Take a slice of this array to select only last 5 elements. Display the sliced array.
+    3. Create an array of 6 fruits with "apple" as one of them. Use indexOf() to find position of "apple". Display the index or display "apple not found".
+    4. Create an array of even numbers from 2 to 20. Using filter(), create new array with only numbers greater than 10. Display filtered array.
+    5. Create an array to store 5 random country names. Sort the array in ascending alphabetical order using sort() method. Display final array.
+    
+    ###########################################################
+    Tutorial_22:-
+         - Functions Part-1
+    ###############################################################
+    
+    ### Watch Tutorial → [Click Here](https://www.youtube.com/watch?v=MwtLPwSJUyg)
+    
+    ### Functions **Part 1: Function Basics and Declaration**
+    
+    1. **Function Declaration:**
+        
+        In JavaScript, you can declare a function using the `function` keyword. A function is a block of reusable code that performs a specific task.
+        
+        ```jsx
+        function greet(name) {
+          console.log(`Hello, ${name}!`);
+        }
+        
+        greet('John'); // Output: Hello, John!
+        
+        ```
+        
+    2. **Function Parameters:**
+        
+        Functions can take parameters (inputs) and use them within the function's body.
+        
+        ```jsx
+        function add(a, b) {
+          return a + b;
+        }
+        
+        let result = add(3, 5);
+        console.log(result); // Output: 8
+        
+        ```
+        
+    3. **Function Expression:**
+        
+        Functions can also be defined as expressions and assigned to variables. This is useful for creating anonymous functions or passing functions as arguments.
+        
+        ```jsx
+        const multiply = function(a, b) {
+          return a * b;
+        };
+        
+        let product = multiply(4, 6);
+        console.log(product); // Output: 24
+        
+        ```
+        
+    4. **Arrow Functions:**
+        
+        Arrow functions provide a concise syntax for defining functions, especially for one-liners.
+        
+        ```jsx
+        const square = (x) => x * x;
+        
+        let squaredValue = square(7);
+        console.log(squaredValue); // Output: 49
+        
+        ```
+        
+    5. **Return Statement:**
+        
+        Functions can return values using the `return` statement. If a function doesn't explicitly return a value, it returns `undefined`.
+        
+        ```jsx
+        function sayHello() {
+          return 'Hello!';
+        }
+        
+        let greeting = sayHello();
+        console.log(greeting); // Output: Hello!
+        ```
+        
+    
+    ### Attempt Quiz → [Click Here](https://forms.gle/dbaHXL8xSZAYpxTe8)
+    
+    ### Assignment Questions:
+    
+    1. Write a function `addNumbers` that takes two numbers as arguments and returns their sum. Call the function to find sum of any two numbers and display the result.
+    2. Write an arrow function `square` that takes a number and returns its square. Call this function to find square of any number and display the result.
+    3. Write a function expression called `randomNumber` that returns a random whole number between 1 and 10. Assign this function to a variable and display output of that variable to see random numbers.
+    4. Write a function `stringConcat` that takes two string arguments and returns concatenated string. Call this function to concatenate your first and last name into a full name. Display the returned full name.
+    5. Write a function `greetUser` that takes username as input parameter and returns a greeting text for that user. Call the function for at least 3 different users and display their customized greetings.
+    
+    #######################################################
+    Tutorial_23:-
+       - Functions Part-2
+    ########################################################
+    
+    ### Watch Tutorial → [Click Here](https://www.youtube.com/watch?v=1RrLRvLf3dk)
+    
+    ### Functions **Part 2: Function Scope, Closures, and Callbacks**
+    
+    1. **Function Scope:**
+        
+        Variables declared inside a function are scoped to that function and not accessible from outside.
+        
+        ```jsx
+        function outerFunction() {
+          let message = 'I am inside the function';
+          console.log(message);
+        }
+        
+        outerFunction();
+        console.log(message); // Error: message is not defined
+        
+        ```
+        
+    2. **Closures:**
+        
+        A closure is a function that "remembers" its lexical scope, even when called outside that scope.
+        
+        ```jsx
+        function outer() {
+          let message = 'Hello';
+        
+          function inner() {
+            console.log(message);
+          }
+        
+          return inner;
+        }
+        
+        let closure = outer();
+        closure(); // Output: Hello
+        
+        ```
+        
+    3. **Callbacks:**
+        
+        Functions can be passed as arguments to other functions, commonly used in asynchronous operations.
+        
+        ```jsx
+        function fetchData(callback) {
+          // Simulate an asynchronous operation
+          setTimeout(function() {
+            let data = 'This is the data';
+            callback(data);
+          }, 2000);
+        }
+        
+        function displayData(data) {
+          console.log(data);
+        }
+        
+        fetchData(displayData); // Output: This is the data (after a 2-second delay)
+        
+        ```
+        
+    4. **Named and Anonymous Functions:**
+        
+        Functions can be named or anonymous. Named functions have a name, and anonymous functions do not.
+        
+        ```jsx
+        // Named function
+        function namedFunction() {
+          console.log('I am named');
+        }
+        
+        // Anonymous function assigned to a variable
+        const anonymousFunction = function() {
+          console.log('I am anonymous');
+        };
+        
+        namedFunction(); // Output: I am named
+        anonymousFunction(); // Output: I am anonymous
+        
+        ```
+        
+    5. **Function Hoisting:**
+        
+        In JavaScript, function declarations are hoisted to the top of their containing scope, which means you can use a function before it's declared.
+        
+    
+    ```jsx
+    hoistedFunction(); // Output: I am hoisted
+    
+    function hoistedFunction() {
+      console.log('I am hoisted');
+    }
+    
+    ```
+    
+    Functions are a fundamental concept in JavaScript and play a crucial role in structuring and organizing code. They can be used for a wide range of tasks, from simple calculations to complex program logic and asynchronous operations. Understanding how to create, use, and pass functions is essential for JavaScript development.
+    
+    ### Attempt Quiz → [Click Here](https://forms.gle/g85xLegzNz1VKZzV9)
+    
+    ### Assignment Questions:
+    
+    1. Write a function that uses a closure to create a counter. The function should return a new function that when invoked increments and returns a counter variable.
+    2. Write a function `outer` which returns an anonymous inner function that changes a variable `message` when called. Call the inner function and display the changed message outside `outer`.
+    3. Write an asynchronous function `fakeFetch` that accepts a callback. Use `setTimeout` inside `fakeFetch` to simulate a 2 second asynchronous operation before calling the callback function.
+    4. Write both a named and an anonymous function to print your name. Store them in variables and call both functions.
+    5. Write a program with a function called `hoisted` and call that function before declaring it to see hoisting in action.
+    
+    ############################################################
+    Tutorial_24:-
+          - OOP Part-1
+    ##############################################################
+    
+    ### Watch Tutorial → [Click Here](https://www.youtube.com/watch?v=BW0EFOsQPmw)
+    
+    ### Object-Oriented Programming (OOP):
+    
+    Object-Oriented Programming (OOP) is a programming paradigm that revolves around the concept of objects. It provides a way to structure and design software by modeling real-world entities and their interactions. OOP is widely used in software development and is based on several fundamental concepts:
+    
+    **1. Objects:** Objects are the basic building blocks of OOP. They represent real-world entities, combining data (attributes) and behavior (methods or functions) into a single unit. Objects are instances of classes.
+    
+    **2. Classes:** A class is a blueprint or template for creating objects. It defines the structure and behavior of objects of that type. In other words, a class specifies what attributes an object will have and what methods it can execute.
+    
+    **3. Encapsulation:** Encapsulation is the concept of bundling data (attributes) and methods that operate on that data into a single unit, a class. Encapsulation restricts access to some of an object's components, preventing the accidental modification of data and ensuring data integrity.
+    
+    **4. Inheritance:** Inheritance is a mechanism that allows you to create a new class based on an existing class, inheriting its attributes and methods. This promotes code reusability and the creation of more specialized classes. The existing class is known as the base or parent class, and the new class is the derived or child class.
+    
+    **5. Polymorphism:** Polymorphism means that different objects can respond to the same method or function call in a way that is appropriate for their specific class. This allows you to write code that can work with objects of different classes through a common interface. Polymorphism is often achieved through method overriding or interface implementations.
+    
+    Sure, let's illustrate some of the basic Object-Oriented Programming (OOP) concepts with a simple example in JavaScript:
+    
+    ```jsx
+    // Define a class called "Person"
+    class Person {
+      // Constructor method to initialize object properties
+      constructor(name, age) {
+        this.name = name;
+        this.age = age;
+      }
+    
+      // Method to greet
+      greet() {
+        console.log(`Hello, my name is ${this.name} and I am ${this.age} years old.`);
+      }
+    }
+    
+    // Create objects (instances) of the "Person" class
+    const person1 = new Person("Nihar", 20);
+    const person2 = new Person("Akshay", 23);
+    
+    // Access object properties and call methods
+    console.log(person1.name);  // Output: "Nihar"
+    console.log(person2.age);   // Output: 23
+    
+    person1.greet(); // Output: "Hello, my name is Nihar and I am 20 years old."
+    person2.greet(); // Output: "Hello, my name is Akshay and I am 23 years old."
+    
+    ```
+    
+    In this example:
+    
+    1. We define a class called `Person` with a constructor that initializes `name` and `age` properties.
+    2. The `greet` method is a function associated with the `Person` class.
+    3. We create two objects, `person1` and `person2`, each with their own set of properties.
+    4. We access object properties and call the `greet` method to display a message specific to each object.
+    
+    This example demonstrates key OOP concepts, such as classes, objects, properties, and methods. The `Person` class acts as a blueprint for creating objects, and objects have their own data (properties) and behavior (methods). It's a simple illustration of how OOP promotes code organization and the modeling of real-world entities in your code.
+    
+    “this” operator:
+    
+    In JavaScript, the `this` operator is typically used in the constructor of a class to refer to the current instance of the object being created. It's used to initialize and assign values to the object's properties. While it's common and standard practice to use `this` in constructors, it is not strictly necessary to do so, especially if you are not using object-oriented programming principles.
+    
+    However, when you are using the class syntax in JavaScript to define constructors and methods, it is recommended and standard to use `this` to reference the instance's properties. This ensures clarity and consistency in your code, making it easier to understand and maintain.
+    
+    If you decide not to use `this` in the constructor, you would have to come up with an alternative approach to initialize and assign values to the object's properties, which can make your code less conventional and less readable.
+    
+    Here's an example of a constructor without using `this`, though it's not a common practice:
+    
+    ```jsx
+    class Person {
+      constructor(name, age) {
+        const person = {};
+    
+        person.name = name;
+        person.age = age;
+    
+        return person;
+      }
+    
+      greet() {
+        console.log(`Hello, my name is ${this.name} and I am ${this.age} years old.`);
+      }
+    }
+    
+    const person1 = new Person("Nihar", 20);
+    console.log(person1.name); // Output: "Nihar"
+    
+    ```
+    
+    In this example, the constructor creates a new object (`person`) and returns it, which is a less common and less conventional approach. It's typically recommended to use `this` in the constructor for better code organization and maintainability.
+    
+    OOP promotes modularity, reusability, and the organization of code. It helps developers manage complex systems by breaking them down into smaller, more manageable components. OOP is widely used in programming languages such as Java, C++, Python, and C#, and it plays a crucial role in modern software development.
+    
+    ### Attempt Quiz → [Click Here](https://forms.gle/4E9zY71BcQSMujjN8)
+    
+    ### Assignment Question:
+    
+    Create a class called 'BankAccount' with attributes accountNumber, name, balance. Write a constructor, deposit() and withdraw() methods to add/subtract money from balance. Create 2 accounts, make some deposits and withdrawals, and print updated balances.
+    
+    ########################################################
+    Tutorial_25:-
+        - OOP Part-2
+    ##########################################################  
+    ### Watch Tutorial → [Click Here](https://www.youtube.com/watch?v=OLvfrbvBcYE)
+    
+    **1. Objects:**
+    
+    In JavaScript, objects are collections of key-value pairs. They are used to represent and organize data. Objects can contain various data types, including other objects, functions, and primitive values. Here's how you can create an object:
+    
+    ```jsx
+    let person = {
+      firstName: "Nihar",
+      lastName: "Dodagatta",
+      age: 20
+    };
+    
+    ```
+    
+    **2. Properties:**
+    
+    Properties are the key-value pairs within an object. They define the characteristics or attributes of the object. You can access object properties using dot notation or bracket notation:
+    
+    ```jsx
+    console.log(person.firstName); // Using dot notation
+    console.log(person["lastName"]);  // Using bracket notation
+    
+    ```
+    
+    You can also add, modify, or delete properties of an object:
+    
+    ```jsx
+    person.gender = "Male";     // Adding a property
+    person.age = 31;           // Modifying a property
+    delete person.age;         // Deleting a property
+    
+    ```
+    
+    **3. Methods:**
+    
+    Methods are functions defined as properties of an object. They allow you to perform actions or operations on the object's data. Here's how you can define and use a method within an object:
+    
+    ```jsx
+    let calculator = {
+      add(a, b) {
+        return a + b;
+      },
+      subtract(a, b) {
+        return a - b;
+      }
+    };
+    
+    console.log(calculator.add(5, 3));      // Calling the add method
+    console.log(calculator.subtract(10, 2)); // Calling the subtract method
+    ```
+    
+    **4. Object Properties and Methods:**
+    
+    In addition to user-defined objects, JavaScript has several built-in objects and methods that are part of the core language or provided by the JavaScript runtime environment. For example, the `Math` object contains various mathematical methods, and the `Date` object allows working with date and time values.
+    
+    ```jsx
+    let circle = {
+      radius: 5,
+      area() {
+        return Math.PI * this.radius * this.radius;
+      }
+    };
+    
+    console.log(circle.area()); // Output: 78.53981633974483
+    ```
+    
+    **5. Object Constructors:**
+    
+    You can create multiple objects with the same structure and methods by using constructor functions or classes. Constructor functions are functions that are used to create objects with similar properties and methods. Here's an example of an object created using a constructor function:
+    
+    ```jsx
+    class Person {
+      constructor(firstName, lastName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+      }
+    
+      getFullName() {
+        return `${this.firstName} ${this.lastName}`;
+      }
+    }
+    
+    const nihar = new Person("Nihar", "Dodagatta");
+    console.log(nihar.getFullName()); // Output: "Nihar Dodagatta"
+    ```
+    
+    ### Attempt Quiz → [Click Here](https://forms.gle/cGSt4jnAjZGPyn339)
+    
+    ### Assignment Question:
+    
+    Create a JavaScript object called Rectangle with the following properties:
+    
+    - length
+    - width
+    
+    And the following methods:
+    
+    - area() - Calculates and returns the area of the rectangle
+    - perimeter() - Calculates and returns the perimeter of the rectangle
+    
+    Then create a Rectangle object to represent a rectangle with length = 5 and width = 3.
+    
+    Call the area() and perimeter() methods on the rectangle object and log the results to display the area and perimeter of the rectangle.
+    
+    The key things to demonstrate:
+    
+    - Creating an object
+    - Using properties
+    - Defining and calling methods
+    - Using this keyword
+    
+    #########################################################
+    Tutorial_26:-
+         - Document Object Model
+    ##########################################################   
+    ### Watch Tutorial → [Click Here](https://www.youtube.com/watch?v=Q9ANhMWGScE)
+    
+    ### Document Object Model:
+    
+    The Document Object Model, commonly referred to as the DOM, is a fundamental concept in web development. It is a programming interface for web documents, providing a structured representation of the web page's content. The DOM represents the page so that programs (typically written in JavaScript) can interact with the web page's content dynamically, allowing you to read, manipulate, and change the content, structure, and style of a webpage.
+    
+    Here's a more detailed introduction to the Document Object Model:
+    
+    **1. Structured Representation:**
+    The DOM represents the elements of an HTML or XML document as a structured tree-like model, where each HTML element, attribute, and piece of text is represented as an object or node in the tree.
+    
+    **2. Hierarchical Structure:**
+    The DOM is organized hierarchically, with the top-level node called the "document" object. The document object serves as the entry point to the DOM tree and contains all other elements as its children. Elements are organized in a parent-child relationship, forming a tree structure.
+    
+    **3. Programmable Interface:**
+    The DOM provides a programmatic interface for scripting languages like JavaScript to access and manipulate the elements within a web page. It allows developers to interact with web content, create dynamic web applications, and respond to user actions.
+    
+    **4. Properties and Methods:**
+    Every node in the DOM tree has properties and methods that can be accessed and called using scripting languages. These properties allow you to access attributes and content, while methods enable you to modify or interact with the content.
+    
+    **5. Real-Time Interaction:**
+    The DOM is not a static representation of a webpage but rather a dynamic one. It reflects any changes made to the web page in real time. For example, if you change the text of a paragraph element using JavaScript, the DOM is updated immediately to reflect that change.
+    
+    **6. Browser Independence:**
+    The DOM is implemented by web browsers, and it provides a consistent way for developers to access and manipulate web content regardless of the browser being used. This standardization makes it easier to write cross-browser-compatible code.
+    
+    **7. Use Cases:**
+    The DOM is used for various purposes in web development, such as:
+    
+    - **Accessing Elements:** You can locate and access HTML elements in a document to retrieve or change their attributes, content, or styles.
+    - **Manipulating Content:** You can add, remove, or modify elements and their content on the fly.
+    - **Handling Events:** You can attach event handlers to respond to user actions, such as clicks or keyboard inputs.
+    - **Creating Dynamic Interfaces:** The DOM allows you to build interactive and dynamic user interfaces by manipulating elements based on user interactions or changing data.
+    
+    In summary, the Document Object Model (DOM) is a structured representation of a web page's content, allowing developers to access and manipulate web content in a dynamic and programmatic manner. It is a foundational concept for web development and is heavily used in combination with JavaScript to create interactive and responsive web applications.
+    
+    Selecting and manipulating HTML elements with JavaScript is a fundamental skill in web development. JavaScript provides various methods to select elements from the Document Object Model (DOM) and perform actions like changing content, styles, and attributes. Here's an overview of how to select and manipulate HTML elements:
+    
+    **Selecting HTML Elements:**
+    
+    1. **getElementById:** Select an element by its unique ID attribute.
+        
+        ```jsx
+        const element = document.getElementById("myElementId");
+        
+        ```
+        
+    2. **getElementsByClassName:** Select elements by their class name.
+        
+        ```jsx
+        const elements = document.getElementsByClassName("myClass");
+        
+        ```
+        
+    3. **getElementsByTagName:** Select elements by their tag name.
+        
+        ```jsx
+        const elements = document.getElementsByTagName("p");
+        
+        ```
+        
+    4. **querySelector:** Select the first element that matches a CSS selector.
+        
+        ```jsx
+        const element = document.querySelector(".myClass");
+        
+        ```
+        
+    5. **querySelectorAll:** Select all elements that match a CSS selector.
+        
+        ```jsx
+        const elements = document.querySelectorAll("p.myClass");
+        
+        ```
+        
+    
+    **Manipulating HTML Elements:**
+    
+    Once you've selected an element, you can manipulate it in various ways.
+    
+    1. **Changing Content:**
+        - **innerHTML:** Change the HTML content of an element.
+            
+            ```jsx
+            element.innerHTML = "New content";
+            
+            ```
+            
+        - **textContent:** Change the text content of an element.
+            
+            ```jsx
+            element.textContent = "New text content";
+            
+            ```
+            
+    2. **Changing Attributes:**
+        - **setAttribute:** Set or change an attribute.
+            
+            ```jsx
+            element.setAttribute("href", "<https://www.example.com>");
+            
+            ```
+            
+        - **getAttribute:** Get the value of an attribute.
+            
+            ```jsx
+            const hrefValue = element.getAttribute("href");
+            
+            ```
+            
+    3. **Styling Elements:**
+        - **style:** Change CSS styles of an element.
+            
+            ```jsx
+            element.style.color = "blue";
+            element.style.fontSize = "20px";
+            
+            ```
+            
+    4. **Adding/Removing Classes:**
+        - **classList:** Add or remove CSS classes from an element.
+            
+            ```jsx
+            element.classList.add("newClass");
+            element.classList.remove("oldClass");
+            
+            ```
+            
+    5. **Creating New Elements:**
+        - **createElement:** Create a new HTML element.
+            
+            ```jsx
+            const newElement = document.createElement("div");
+            
+            ```
+            
+        - **appendChild:** Add the new element to the DOM.
+            
+            ```jsx
+            parentElement.appendChild(newElement);
+            
+            ```
+            
+    
+    These are the basics of selecting and manipulating HTML elements with JavaScript. The combination of selecting the right element and using the appropriate methods allows you to create dynamic and interactive web pages. It's essential to understand the DOM and how JavaScript interacts with it to build effective and responsive web applications.
+    
+    ### Attempt Quiz → [Click Here](https://forms.gle/yfUEV1ekURZ8BhDa8)
+    
+    ### Assignment Question:
+    
+    Create an HTML page with the following elements:
+    
+    - A heading (h1) with id "main-heading"
+    - A paragraph (p) with class "content"
+    - An image (img) with src pointing to an image file
+    - A button with id "change-button"
+    
+    Write a JavaScript code that does the following when the button is clicked:
+    
+    1. Change the text content of the heading to "Updated Heading"
+    2. Change the alt text of the image to "Updated Image"
+    3. Change the text content of the paragraph to a sample text of your choice
+    4. Change the background color of the button to red
+    
+    Use the following DOM methods:
+    
+    - getElementById()
+    - querySelector()
+    - textContent
+    - setAttribute()
+    - style
+    
+    Key things to demonstrate in your code:
+    
+    - Selecting elements using DOM methods
+    - Manipulating content, attribute, style using properties and methods
+    - Adding interactivity using click listener and callback function
+    
+    ##################################################################

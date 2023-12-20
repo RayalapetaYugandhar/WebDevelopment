@@ -1,0 +1,34 @@
+Here we will get all type of Fonts -- https://fonts.google.com/
+
+    Select which type of font you want and next select the size of the font..
+        Ex:- font size 
+                select Regular 400...ect
+    Click on Import...  
+        You will get this type of link -- @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Pixelify+Sans&display=swap');
+
+        Past that link in css file....Next you have to add font family on which text you want to change..
+                          EX:-  font-family: 'Pixelify Sans', sans-serif;
+
+
+
+Reference:-
+    @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Pixelify+Sans&display=swap');
+
+    h1 {
+        color: aqua;
+        font-family: 'Pixelify Sans', sans-serif;
+    }
+    p {
+        color: blueviolet;
+        font-family: 'Playfair Display', serif;
+    }
+    body {
+        text-align: center;
+    }                          
+
+
+    font-size: 30px;                 -- We can change how much size we want 
+    font-style: oblique;             -- We can change which style we want 
+    letter-spacing: 4px;             -- We can change how much space we want in between the letters 
+    word-spacing: 20px;              -- We can change how much space we want in between the words  
+    text-decoration: underline;      -- we can decorate the text 

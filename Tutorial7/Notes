@@ -1,0 +1,12 @@
+<!-- First it will check the preference. Let's see the preference
+            1. Inline
+            2. Internal
+            3. External
+
+    If inline is present then it directly take inline color, 
+    if inlline is not present then it will check for internal,
+    If internal is present then it will take internal color, 
+    If Inline and internal is not present then it will go for External CSS color......---> 
+
+
+<!--If we write !important in External css file then directly it will take external css color -->   

@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Pixelify+Sans&display=swap');
+
+h1 {
+    color: rgb(245, 27, 56);
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 50px;
+    font-style: italic;
+    text-decoration: underline;
+}
+p {
+    color: rgb(207, 138, 9);
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-style: oblique;
+    letter-spacing: 4px;
+    word-spacing: 20px;
+}
+body {
+    text-align: center;
+}

@@ -1,0 +1,17 @@
+.carousel-item {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    height: 250px;
+}
+
+.head-h1 {
+    padding: 20px;
+    margin: 10px;
+    /* text-align: center; */
+}
+
+.button-b {
+    margin: 100px;
+    padding-top: 5px;
+}

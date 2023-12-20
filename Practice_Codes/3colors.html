@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+			body {
+		background: #17181c;
+		font-size: 35px;
+		height: 100vh;
+		/* center the loader*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		}
+		.loader{
+			display: flex;
+			margin: 1.5em;
+			width: 6em;
+			height: 6em;
+			/* add space between loader cricles*/
+			justify-content: space-around;
+		}
+		.loader-1,
+		.loader-2,
+		.loader-3{
+			/*Create the circles */
+			border-radius: 50%;
+			width: 1em;
+			height: 1em;
+			/* Add loading effect*/
+			animation: loading 1s linear infinite;
+		}
+		.loader-1 {
+			background: #f42f25;
+		}
+		.loader-2 {
+			background: #f49725;
+			/* Add delay for the second circle*/
+			animation-delay: 0.1s;
+		}
+		.loader-3 {
+			background: #255ff4;
+			/* Add delay for the third circle*/
+			animation-delay: 0.2s;
+		}
+		/* Animation*/
+		@keyframes loading {
+			from,
+			to {
+				transform: translateY(0) scale(1, 1);
+				/*animation-timing-function: ease-in; */
+			}
+			45% { 
+				transform: translateY(5em) scale(1, 1);
+				animation-timing-function: linear;
+			}
+			50% {
+				transform: translateY(5em) scale(1.5, 0.5);
+				animation-timing-function: linear;
+			}
+			55% {
+				transform: translateY(5em) scale(1, 1);
+				animation-timing-function: ease-out;
+
+			}
+
+		}
+
+	</style>
+	<div class="loader">
+		<div class="loader-1"></div>
+		<div class="loader-2"></div>
+		<div class="loader-3"></div>
+	</div>
+</head>
+</html>
+
+
+
+	
+
+			
+				

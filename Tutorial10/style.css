@@ -1,0 +1,39 @@
+.box {
+    height: 150px;
+    width: 200px;
+    border: 5px solid red;
+    text-align: center;
+    display: inline-block;  /*If we use display: inline-block; then it will separate the blocks*/
+    margin: 5px;  /* margin -- space between the paper and margin(mana paper ki margin ki vunna gape)*/
+}
+
+body {
+    height: 200vh;
+}
+.box1 {
+    position: static;  /*static - It will not change any thing(Nuvu ala vunavo alne vundu ani)*/
+                        /* This is the default positioning for all HTML elements. 
+                       Elements with static positioning are placed in the normal flow of the document. 
+                        You don't need to use any special CSS properties to create static positioning.  */
+}
+
+.box3 {
+    /* position: absolute;      /* absolute - box3 parent element ki with reference tho apply avuthundhi..Here parent element is 'body' */
+    position: relative;         /*relative - we can change the position of the block */
+    top: 50px;   
+    left: 50px;
+}
+
+.box2 {
+    position: sticky; /* sticky - if we use sticky then the block will not move
+                       (manamu sticky ani use chesthe aa tharvatha block ni movie cheyalemu adhi alane fix ayi vuntundhi*/
+    top: 50px;   
+    left: 50px;
+}
+
+.box5 {
+    position: fixed;   /*Fixed - fixed also works same as sticky*/
+    bottom: 50px;      /* we can check in some websites..Ex:- chat here ani or WhatsApp ani alane fixed ga vuntundhi*/
+    right: 20px;
+}
+

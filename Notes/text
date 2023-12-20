@@ -1,0 +1,45 @@
+                        HTML- Hypertext Markup Language 
+                        
+HTML (Hypertext Markup Language) uses tags to structure content on web pages.
+        Tags are used to define elements and their attributes, which tell web browsers how to display the content.
+        HTML tags are typically enclosed in angle brackets "<>".
+
+                            EXAMPLES
+
+                    Here are some common HTML tags:
+
+    <html> defines the beginning and end of an HTML document.
+
+    <head> Contains metadata about the document, such as the title, character set, and links to external resources.
+
+
+Tutorial1   -       Introduction (How to write HTML code)
+
+Tutorial2   -       How to Link the CSS sheet and coloring
+Tutorial2_1 -       How to add data in the container by using class (Class called as atribute)
+                    How to set height
+                    How to add background-color
+                    How to adjust text-align
+
+Tutorial3 -         Colors (RGB, Hex, HSL)    
+Tutorial3_1 -       How to add image to the HTML code    
+                    How to Change the image size     
+
+Tutorial4   -       Learned How to use tags.. Break, Bold, 
+                    Horizontal line, Italic font, anchore tags,Button....                      
+
+Tutorial5  -        How to create UnorderList, OrderList, Tables and Insert data into tables.
+
+Tutorial6  -        Form Creation
+
+Tutorial7  -        Inline CSS color, Internal CSS color, External CSS color...
+
+Tutorial8  -        Font style Change, Font Size, Font Style, Text Decoration, Letter spacing, Word Spacing..
+
+Tutorial9  -        CSS Box Model 
+                        -- Padding, Border, Margin
+
+Tutorial10 -        Position values
+                        -- static, relative, absolute, fixed, sticky                        
+
+Tutorial11 -        Portfolio website Creation                 

@@ -1,0 +1,22 @@
+
+### Content:
+
+    - The content area represents the actual content of the HTML element (e.g., text, images, or other media).
+    - The width and height of an element are determined by its content area.
+
+### Padding:
+
+    - Padding is the space between the content and the element's border.
+    - You can set padding for individual sides (top, right, bottom, left) or all sides at once.
+
+### Border:
+
+    - The border surrounds the padding and content of an element.
+    - You can specify the border width, style, and color.
+    - The `border` property can be shorthand or you can set border properties individually.
+
+### Margin:
+
+    - The margin is the space outside the border and separates the element from other elements on the page.
+    - You can set margins for individual sides or all sides at once.
+    - Margins can be used to control spacing between elements.

@@ -1,0 +1,20 @@
+<!-- <br> is used to breake the line -->
+<!-- <b></b> is used to Bold the words or lines -->
+<!-- <i></i> italic font -->
+<!-- <hr> horizontal line -->
+<!-- <button> if we use button tag then simply it will display as a button-->
+<!-- <a> if we use anchor tag with URL then it will navigate to the URL page-->
+<!-- <a> without achor tag Button will not perform any action -->
+
+
+<!-- HTML (Hypertext Markup Language) uses tags to structure content on web pages.
+        Tags are used to define elements and their attributes, which tell web browsers how to display the content.
+        HTML tags are typically enclosed in angle brackets "<>".
+
+                            EXAMPLES
+
+                    Here are some common HTML tags:
+
+    <html> defines the beginning and end of an HTML document.
+
+    <head> Contains metadata about the document, such as the title, character set, and links to external resources. -->

@@ -1,0 +1,41 @@
+.navigationbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(41, 35, 35);
+}
+
+.navigationbar-left {
+    padding-left: 20px;
+    visibility: hidden;
+}
+
+.navigationbar-right {
+    display: flex;
+    padding-right: 20px;
+    align-items: center;
+    flex-direction: row;
+}
+.anchor {
+    /* margin: 2px;
+    border: 2px solid red; */
+    padding: 5px;
+    color: aliceblue;
+}
+
+.home {
+    text-align: center;
+    color: aliceblue;
+    padding-top: 100px;
+}
+.Search {
+    text-align: center;
+    padding: 20px;
+}
+body {
+    background-color:  rgb(41, 35, 35);
+}
+.Shortcuts {
+    text-align: center;
+    color: aliceblue;
+}

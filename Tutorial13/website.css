@@ -1,0 +1,133 @@
+.image {
+    height: 100px;
+}
+body {
+    height: 100px;
+    background-image: url('https://images.theconversation.com/files/427950/original/file-20211022-13-1yw1v30.jpeg?ixlib=rb-1.1.0&q=45&auto=format&w=1000&fit=clip');
+    background-size: cover;
+}
+.navigation-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.item-nav {
+    color: white;
+}
+.item-nav:hover {
+    color: rgb(16, 228, 16);
+}
+.anchor {
+    margin-left: 150vh;
+    /* margin-left: auto; */
+}
+.rounded {
+    height: 40vh;
+    align-items: center;
+}
+/* .rounded {
+    height: 60vh;
+} */
+/* .about {
+    padding-top: 80px;
+} */
+
+.info-h1 {
+    color: black;
+    text-align: center;
+}
+.para-p1 {
+    color: white;
+}
+.projects {
+    text-align: center;
+}
+
+.projects-head {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(53, 128, 53);
+    /* letter-spacing: 2px; */
+    font-size: 35px;
+    font-style: italic;
+}
+.projects-sub-content {
+    display: flex;
+    flex-direction: row;
+}
+.projects_right_now {
+    margin: 10px;
+    padding: 2px;
+    border: 2px solid rgb(53, 128, 53);
+    width: 400px;
+
+}
+.projects-h1 {
+    font-family: 'Young Serif', serif;
+    font-size: 25px;
+    /* color: rgb(16, 212, 212); */
+    color: white;
+}
+.projects-p {
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+    font-size: 25px;
+    color: bisque;
+}
+
+.services {
+    text-align: center;
+}
+
+.service-head {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(53, 128, 53);
+    /* letter-spacing: 2px; */
+    font-size: 35px;
+    font-style: italic;
+}
+.services-sub-content {
+    display: flex;
+    flex-direction: row;
+}
+.services_we_provide {
+    margin: 10px;
+    padding: 2px;
+    border: 2px solid rgb(53, 128, 53);
+    width: 400px;
+
+}
+.services-h1 {
+    font-family: 'Young Serif', serif;
+    font-size: 25px;
+    /* color: rgb(16, 212, 212); */
+    color: white;
+}
+.services-p {
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+    font-size: 25px;
+    color: bisque;
+}
+
+.contact {
+    text-align: center;
+    
+}
+
+.contact-h1 {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(53, 128, 53);
+    /* letter-spacing: 2px; */
+    font-size: 35px;
+    font-style: italic;
+}
+
+/* .social-media {
+    display: flex;
+    flex-direction: row;
+} */
+
+.social-image-icon {
+    height: 50px;
+}
+
+/* <div class="Home" id="Home"> </div>   -->>This 'id' and 'href' is used navigate or diverte to the perticular class or line 
+<a class="a-element" href="#Home">Home</a> */

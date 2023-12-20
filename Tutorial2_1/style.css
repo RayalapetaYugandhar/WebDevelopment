@@ -1,0 +1,20 @@
+h1 {
+    color: red;
+}
+
+p {
+    color: blue;
+}
+
+.my-container {
+    height: 50vh;
+    background-color: aqua;
+    text-align: center;
+}
+
+/* my-container is an value that we already used in the div class */
+/* height - based on the height we can change the values*/
+/* background-color is used for coloring the background */
+/* color - color is used to just color the text */
+/* text-align - is used to arrange the text positions 
+(If you want text in left side then we can chnage as left) EX:- left, right, center..... */

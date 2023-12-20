@@ -1,0 +1,15 @@
+h1 {
+    color: rgb(170, 16, 36);
+}
+
+p {
+    color: rgb(202, 184, 24);
+}
+
+.my-container {
+    height: 50vh;
+    background-color: rgb(35, 96, 100);
+    text-align: center;
+}
+
+ /* We can take color from google (Color picker) */

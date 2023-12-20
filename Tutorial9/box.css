@@ -1,0 +1,14 @@
+.box {
+    border: 8px solid rgb(231, 72, 10);
+    text-align: center;
+    height: 300px;
+    width: 70vh;
+    padding: 50px;
+    margin: 20px;
+}
+
+.heading {
+    display: block;
+    border: 10px solid rgb(221, 11, 29);
+    text-align: center;
+}
